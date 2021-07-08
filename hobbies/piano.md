@@ -30,6 +30,31 @@ This brings up an interesting way to play chords, by playing the notes from thes
 E.g to play Dmin11 (**D F G C E G**) (let us label octaves by 1...)
 Play **D1, F2, G2, C3, E3, G3** so that would be like playing C major over D minor.
 
+Further to inversions, the notes can be played anywhere! As long as you have the notes.
+So you have the chord tones and the scale.
+
+You can play an entire scale as a voicing.
+A voicing in general is a bunch of notes from a scale.
+The upper extensions are the things added to the chord outside of the original.
+He plays a sharp 11 with the Cmaj7 because of the lydian scale.
+So you can just stack thirds on top of eachother - then you end up playing the whole scale but in two octaves.
+
+You can restructure your chords so that you are not really moving the hand around.
+This also leads to really nice voicings.
+
+A really interesting thing to do is to move the chord progression down by using voicings!
+E.g. Fminor7 with dorian scale
+Bb Mixolydian (but allowing many things)
+Eb Lydian
+(this is a 2 5 1 in Eb)
+You don't have to think in scales for this though, just think of a chromatic movement of the chord.
+As such, the motions are as simple as possible.
+
+The same voicing works on the five chord as well as a tritone (three whole steps) substition.
+You can roll a tenth!
+
+For moving around, you could move chromatically, in whole steps, around the circle of fifths. etc.
+
 ## Scales
 
 The formula for a major scale is ROOT, W W H W W W H (think of C here)
@@ -83,15 +108,23 @@ B Locrian — BCDEFGAB
 
 ## Common chord progressions
 
-2 5 1 (jazzy / poppy)
+2 5 1 (jazzy / poppy) or 2 5 1 6 for a loop
 1 5 6 4 (very poppy)
 
 ## Things to know
 
 - The circle of fifths
+- chromatic walkdown (tritone substition)
+- Fifth diminsished
 
 ## Songs I know with links to learning them
+
 - [Married Life - Up [Piano Tutorial] (Synthesia) // PianoMavs - YouTube](https://www.youtube.com/watch?v=7eQBm-j8Ev0&list=PL5E18Yj9GfSSOph0pu3qy6aicBh_oo-u-&index=11)
 - [Requiem for a Dream Piano - Piano Tutorial by PlutaX  Synthesia - YouTube](https://www.youtube.com/watch?v=nvKwLMJJfZQ&list=PL5E18Yj9GfSSOph0pu3qy6aicBh_oo-u-&index=16)
 - [Rocket Man tutorial - YouTube](https://www.youtube.com/watch?v=iuG5KIIKvxk&list=PL5E18Yj9GfSSOph0pu3qy6aicBh_oo-u-&index=19)
 - [Alicia Keys - If I Ain't Got You Piano Lessons + Song Story 🎹 - YouTube](https://www.youtube.com/watch?v=yYrAvxh-AvE&list=PL5E18Yj9GfSSOph0pu3qy6aicBh_oo-u-&index=31)
+
+## Practice tips
+
+- A cool way to practice voicings - play the voicing, jump an octave, jump back, and then move.
+- [All Piano Exercises - 240 Piano finger exercises in all keys](https://www.hanon-online.com/all-piano-exercises/)
