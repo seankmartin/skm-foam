@@ -1,6 +1,6 @@
 ---
 title: Beth LFP Meetings
-tags: Meetings, LFP, Beth
+tags: meetings, LFP, Beth
 ---
 
 # Beth LFP Meetings
