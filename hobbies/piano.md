@@ -50,10 +50,20 @@ Eb Lydian
 You don't have to think in scales for this though, just think of a chromatic movement of the chord.
 As such, the motions are as simple as possible.
 
+An example of the 2 5 1 6 in Eb
+Play **Fmin7 Bb7 Ebmaj7 C7**, then make easier with **Fmin7, Bb7 (2nd inversion) Ebmaj7 C7 (1st inversion)**
+Remember that the C7 and Bb7 are dominant chords (so they want to resolve to the 1 and 2 respectively)
+Note that they chromatically are moving by the same amount.
+
 The same voicing works on the five chord as well as a tritone (three whole steps) substition.
 You can roll a tenth!
 
 For moving around, you could move chromatically, in whole steps, around the circle of fifths. etc.
+
+To follow up on voicings, the most important part of chords are the 3rd and the 7th.
+
+Comping stands for accompanyment
+You can keep the melody in mind even when improvising to try and have a similar feel!
 
 ## Scales
 
@@ -108,8 +118,13 @@ B Locrian — BCDEFGAB
 
 ## Common chord progressions
 
-2 5 1 (jazzy / poppy) or 2 5 1 6 for a loop
+2 5 1 (jazzy / poppy) or 2 5 1 6 for a loop (other options 6dim or Bdom sharp 9 over C in Eb)
 1 5 6 4 (very poppy)
+
+Eb is very good in jazz.
+
+Try this?
+**G B D F A C# E** resolve to **C D G B E F# B C# F# G#**
 
 ## Things to know
 
