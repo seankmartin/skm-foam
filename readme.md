@@ -14,3 +14,10 @@ Then:
 ```Bash
 start chrome http://127.0.0.1:8000/
 ```
+
+OR
+
+```Bash
+python copy.py
+mkdocs build
+```
