@@ -143,3 +143,11 @@ Try this?
 
 - A cool way to practice voicings - play the voicing, jump an octave, jump back, and then move.
 - [All Piano Exercises - 240 Piano finger exercises in all keys](https://www.hanon-online.com/all-piano-exercises/)
+
+## Quotes
+
+Let's talk about this in a live stream because there's a lot to it. To identify chord progressions, what you'll be listening for are two things, primarily. First, you need to identify root motion as an indicator of likely chord progression. Often, you can listen for the bass, as the bass quite commonly plays the root of a chord, especially in a lot of pop music and such. However, this is sometimes tricky because there's no rule that says the lowest note you're hearing has to be the root of the chord. Sometimes, we can play a chord but put that chord's 3rd on the bottom. To help in those situations, you'll then want to apply your knowledge of functional harmony. i.e. "What is the most likely chord to use in this particular scenario based on the context directly surrounding it?" In addition to root motion, you'll also need to know the quality of the chords. Are they minor? Major? Dominant? etc.
+
+If this initially sounds like a lot, that's ok! The place to start is with ear training and identifying intervals. This is what will help you learn melodies, also. Being able to hear 2 notes and know that they are, for example, a 4th apart is essential in being able to identify chord qualities, root motions, melodies, etc. We'll have entire courses to help you with this, but basically you're familiarizing your ear with the sound of different intervals so that you can recognize them easily no matter what component of the song you're listening for. Ear training will also help with quickly identifying chord qualities. In a split second, you'll hear when something is minor, major, whether the 7th is minor or major, what the upper extensions are, etc. All of these things help to give more context to the overall harmony and will help you fill in the blanks.
+
+The more you do this, the more you'll see recurring patterns and you'll be able to recognize things almost as they're happening! It's how musicians can almost play along with songs they've never heard.
