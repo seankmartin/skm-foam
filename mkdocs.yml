@@ -12,7 +12,7 @@ theme:
   favicon: attachments/foam-icon.png
   language: en
   features:
-    - navigation.expand # Use this to auto expand the links
+    # - navigation.expand # Use this to auto expand the links
     - tabs 
 markdown_extensions: 
   - attr_list # https://squidfunk.github.io/mkdocs-material/reference/images/
