@@ -32,15 +32,16 @@ Play **D1, F2, G2, C3, E3, G3** so that would be like playing C major over D min
 
 Further to inversions, the notes can be played anywhere! As long as you have the notes.
 So you have the chord tones and the scale.
+You can restructure your chords so that you are not really moving the hand around.
+This also leads to really nice voicings.
+
+## Voicings
 
 You can play an entire scale as a voicing.
 A voicing in general is a bunch of notes from a scale.
 The upper extensions are the things added to the chord outside of the original.
 He plays a sharp 11 with the Cmaj7 because of the lydian scale.
 So you can just stack thirds on top of eachother - then you end up playing the whole scale but in two octaves.
-
-You can restructure your chords so that you are not really moving the hand around.
-This also leads to really nice voicings.
 
 A really interesting thing to do is to move the chord progression down by using voicings!
 E.g. Fminor7 with dorian scale
@@ -61,7 +62,6 @@ You can roll a tenth!
 For moving around, you could move chromatically, in whole steps, around the circle of fifths. etc.
 
 To follow up on voicings, the most important part of chords are the 3rd and the 7th.
-
 Comping stands for accompanyment
 You can keep the melody in mind even when improvising to try and have a similar feel!
 

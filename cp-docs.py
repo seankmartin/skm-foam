@@ -40,7 +40,8 @@ def main():
 
     from pprint import pprint
 
-    shutil.rmtree(os.path.join(in_dir, "docs"))
+    if os.path.isdir(os.path.join(in_dir, "docs")):
+        shutil.rmtree(os.path.join(in_dir, "docs"))
     for fname in onlyfiles:
         source = os.path.join(in_dir, fname)
         dest = os.path.join(in_dir, "docs", fname)
