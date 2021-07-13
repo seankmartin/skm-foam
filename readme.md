@@ -6,7 +6,11 @@ My knowledge base in foam.
 
 ```Bash
 pip install -r requirements.txt
+python copy.py
 mkdocs serve
 ```
 
-Then visit `http://127.0.0.1:8000/`
+Then:
+```Bash
+start chrome http://127.0.0.1:8000/
+```

@@ -36,17 +36,16 @@ def main():
         for filename in filenames:
             filename = os.path.join(end_root, filename)
             if ok_file(start_root, filename):
-                print(filename)
-                to_add = os.path.abspath(os.path.join(start_root, filename))
-                onlyfiles.append(to_add)
+                onlyfiles.append(filename)
 
     from pprint import pprint
 
+    shutil.rmtree(os.path.join(in_dir, "docs"))
     for fname in onlyfiles:
         source = os.path.join(in_dir, fname)
         dest = os.path.join(in_dir, "docs", fname)
         os.makedirs(os.path.dirname(dest), exist_ok=True)
-        shutil.copy(source, dest)
+        shutil.copyfile(source, dest)
 
 
 if __name__ == "__main__":
