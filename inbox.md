@@ -8,6 +8,8 @@ https://ebrains.eu/service/elephant/
 https://github.com/NeuromatchAcademy/course-content
 https://medium.com/the-spike/2020-a-moderately-bemused-review-of-the-year-in-neuroscience-99ca8744d03c
 Very interesting idea https://medium.com/the-spike/what-should-systems-neuroscience-do-next-voltage-imaging-9bfa5d6a4df9
+https://www.youtube.com/watch?v=1hTfx0OPrb0
+https://scholar.google.com/citations?hl=en&user=XxHqFtcAAAAJ&view_op=list_works&sortby=pubdate
 
 ## Thoughts
 

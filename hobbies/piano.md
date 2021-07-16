@@ -151,3 +151,12 @@ Let's talk about this in a live stream because there's a lot to it. To identify 
 If this initially sounds like a lot, that's ok! The place to start is with ear training and identifying intervals. This is what will help you learn melodies, also. Being able to hear 2 notes and know that they are, for example, a 4th apart is essential in being able to identify chord qualities, root motions, melodies, etc. We'll have entire courses to help you with this, but basically you're familiarizing your ear with the sound of different intervals so that you can recognize them easily no matter what component of the song you're listening for. Ear training will also help with quickly identifying chord qualities. In a split second, you'll hear when something is minor, major, whether the 7th is minor or major, what the upper extensions are, etc. All of these things help to give more context to the overall harmony and will help you fill in the blanks.
 
 The more you do this, the more you'll see recurring patterns and you'll be able to recognize things almost as they're happening! It's how musicians can almost play along with songs they've never heard.
+
+## Improv
+
+1. Listen back and take bits out that I liked, and then write these out.
+2. Try and keep a steady rhythm even though going on the fly.
+3. Better pedal work so as not to leave a gap between transititions.
+4. My feel of the music seems to be good.
+5. Try not to play the same chords quite as often.
+6. Tone, where are the highs and lows - build into tone shifts.
