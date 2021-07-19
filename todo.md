@@ -9,8 +9,6 @@
 ## Beth LFP
 
 - Can I normalise theta to speed (don't know)
-- Run again and grab NC plots from analysis
-- After this compare again with SIMURAN (burst) + SFC
 - Data inspection
 - Code TODOs
 - Papers check

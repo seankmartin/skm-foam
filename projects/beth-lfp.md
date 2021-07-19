@@ -25,6 +25,23 @@ LSR7 should be excluded for SUB, and thus both
 
 ## Meetings
 
+### 19/07/2021
+
+With Shane and Matheus.
+
+Perhaps equal contribution.
+
+Do the proper controls and the proper statistics.
+Also speed LFP not being a combination of two things.
+
+Perpendicular to RSC (PFC is the same), slight angle of the LFP
+Parallel in SUB
+Ask Beth about histology.
+
+Make a shared doc, and lets start writing methods and results into that.
+Just tell the story of things (cut and paste).
+E.g. take Jneuro paper and take methods from that.
+
 ### 27/05/2021
 
 Questions:
