@@ -15,6 +15,9 @@
 - Check Speed LFP in muscimol
 - Finish off the t-maze splits and analyse
 - Compare an analysis from elephant? E.g. spike LFP ([elephant.sta.spike_triggered_average — Elephant 0.10.0 documentation](https://elephant.readthedocs.io/en/latest/reference/_toctree/sta/elephant.sta.spike_triggered_average.html#elephant.sta.spike_triggered_average))
+- Select final list of recordings
+- Figure out about missing LFPs related to spikes
+- Spike shuffling for STA
 
 ## Website
 
