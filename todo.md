@@ -18,6 +18,8 @@
 - Select final list of recordings
 - Figure out about missing LFPs related to spikes
 - Spike shuffling for STA
+- Theta in CA1
+- Why RSC differences in the latter group.
 
 ## Website
 
