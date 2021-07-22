@@ -116,7 +116,6 @@ Page 247 of the rules of the road lists penalty points
 ## Questions with numbers
 
 - A car towing a caravan or trailer on national roads or motorway is 80 kmph max speed.
-- Unaccompanied learner driver faces at least 2 penalty points and an 80 euro fine.
 - Out of 169 drivers killed in an alcohol related colision, 92% had consumed alcohol.
 - Between 41-90 pedestrians were killed where alchohol was consumed by the pedestrian (between 71-90 where known factor).
 - In fatal collisions alchohol was factor in 31-45% of them. (251-350 out of 867)
@@ -128,7 +127,7 @@ Page 247 of the rules of the road lists penalty points
 - Learner 3 month disqualification as consequence for just one unit of alchohol (probably as above).
 - Learner needs to be acompanied by a full license holder of at least 2 years.
 - BAC 80mg to 100mg per 100ml 400eur fine and 6 month disqual.
-- BAC > 80mg is max six years driving disqual.
+- Learner BAC > 80mg is max six years driving disqual.
 - For not displaying L plates you face 2 penalty points.
 - For L driving unnacompanied faces (min 2 penalty points, max 4 penalty points) and (minimum 80eur fine and max 120).
 - The owner of a vehicle faces max 1000 eur fine is allow learner to drive their vehicle unacomppanied.
