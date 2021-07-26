@@ -20,6 +20,8 @@
 - Spike shuffling for STA
 - Theta in CA1
 - Why RSC differences in the latter group.
+- Use only the LFP that can be found.
+- Deal with how to allow concsiously saying "Work with whatever data is there", but not allowing for unconcious missing data??
 
 ## Website
 
