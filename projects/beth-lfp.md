@@ -19,9 +19,9 @@ Crazy difference in SUB theta sometimes…
 
 LSR7 should be excluded for SUB, and thus both
 
-- ER CLA review
-- Publish NC review
-- Matheus PhD
+## Papers
+
+- Lots of information on speed and LFP (in HC, but still relevant) https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3366345/
 
 ## Meetings
 

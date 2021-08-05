@@ -8,20 +8,16 @@
 
 ## Beth LFP
 
-- Can I normalise theta to speed (don't know)
-- Data inspection
-- Code TODOs
-- Papers check
-- Check Speed LFP in muscimol
+- Implement new speed theta.
+- Spike shuffling for STA.
+- Muscimol list of files and include analysis.
 - Finish off the t-maze splits and analyse
-- Compare an analysis from elephant? E.g. spike LFP ([elephant.sta.spike_triggered_average — Elephant 0.10.0 documentation](https://elephant.readthedocs.io/en/latest/reference/_toctree/sta/elephant.sta.spike_triggered_average.html#elephant.sta.spike_triggered_average))
-- Select final list of recordings
-- Figure out about missing LFPs related to spikes
-- Spike shuffling for STA
-- Theta in CA1
-- Why RSC differences in the latter group.
-- Use only the LFP that can be found.
-- Deal with how to allow concsiously saying "Work with whatever data is there", but not allowing for unconcious missing data??
+- Theta in CA1.
+- Data inspection on PSD for noise.
+- Final(ish) runs of results and creating figures tables etc.
+- Update the paper.
+- Combine Matheus code with mine and think about how to share data.
+- Done.
 
 ## Website
 

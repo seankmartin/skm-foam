@@ -25,3 +25,10 @@ The program is heavily inspired by:
 2. MNE
 3. Elephant
 4. NWB NC?
+
+## Considerations
+
+- Implement converters
+- Delete output folder if -o passed
+- Clear STDout log on program start.
+- Save after functions to different place
