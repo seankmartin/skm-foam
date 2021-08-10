@@ -20,12 +20,12 @@ for fname, d in zip(journal_files, dates):
 os.makedirs(out_dir, exist_ok=True)
 
 # Get week summaries
-summary_file = open(os.path.join(out_dir, "_week_roundups.md"), "r")
+summary_file = open(os.path.join(out_dir, "week_roundups.md"), "r")
 summary_info = {}
 key = None
 info = []
 for line in summary_file.readlines():
-    if line == "\n":
+    if line == "\n" or line.startswith("[["):
         continue
     elif line.split()[0] == "##":
         if key is not None:
@@ -39,7 +39,7 @@ summary_info[key] = "".join(info)
 for week, v in weeks_dict.items():
     year = v[0][0]
     with open(os.path.join(out_dir, f"{year}-{week}.md"), "w") as out_:
-        out_.write(f"# {year} week {week} summary\n\n")
+        out_.write(f"# {year} week {week}\n\n")
 
         out_.write(summary_info[f"{year}-{week}"] + "\n\n")
 
