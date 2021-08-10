@@ -8,7 +8,6 @@
 
 ## Beth LFP
 
-- Implement new speed theta.
 - Spike shuffling for STA.
 - Muscimol list of files and include analysis.
 - Finish off the t-maze splits and analyse
