@@ -8,8 +8,7 @@
 
 ## Beth LFP
 
-- Spike shuffling for STA.
-- Muscimol list of files and include analysis.
+- Muscimol analysis.
 - Finish off the t-maze splits and analyse
 - Theta in CA1.
 - Data inspection on PSD for noise.

@@ -32,3 +32,6 @@ The program is heavily inspired by:
 - Delete output folder if -o passed
 - Clear STDout log on program start.
 - Save after functions to different place
+- New mode where parameters are not written! A read only mode.
+- Improve SIMURAN help.
+- Support tdqm progress bar or none.
