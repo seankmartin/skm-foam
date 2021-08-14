@@ -4,7 +4,10 @@
 
 - [ ] Check reviewer comments on ER work. Mail Shane about these.
 - [ ] PhD thesis
-- Check the Abbott edited series
+- Check the Abbott edited series.
+- Check the papers from the Spike.
+- What already exists in terms of possible ensemble detection / interaction.
+- Start sending Shane my weekly summaries, whether good or bad.
 
 ## Beth LFP
 
