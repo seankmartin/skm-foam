@@ -35,3 +35,5 @@ The program is heavily inspired by:
 - New mode where parameters are not written! A read only mode.
 - Improve SIMURAN help.
 - Support tdqm progress bar or none.
+- Restructure the project to adhere to new PEP guidelines, especially with typing. Related to this, check how to handle default values in classes instead of just using None, so as to adhere to typing (e.g. empty containers instead of None).
+- This would be very helpful to integrate into the code https://mypy.readthedocs.io/en/stable/introduction.html

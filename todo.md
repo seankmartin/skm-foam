@@ -11,14 +11,11 @@
 
 ## Beth LFP
 
-- Muscimol analysis.
-- Finish off the t-maze splits and analyse
-- Theta in CA1.
-- Data inspection on PSD for noise.
 - Final(ish) runs of results and creating figures tables etc.
 - Update the paper.
 - Combine Matheus code with mine and think about how to share data.
 - Done.
+- Why no coherence stats?
 
 ## Website
 
