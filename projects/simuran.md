@@ -37,3 +37,4 @@ The program is heavily inspired by:
 - Support tdqm progress bar or none.
 - Restructure the project to adhere to new PEP guidelines, especially with typing. Related to this, check how to handle default values in classes instead of just using None, so as to adhere to typing (e.g. empty containers instead of None).
 - This would be very helpful to integrate into the code https://mypy.readthedocs.io/en/stable/introduction.html
+- When complete this work, try run with num_workers 4 and see if all results are same and evaluate time benefits.
