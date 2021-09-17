@@ -41,7 +41,12 @@ for week, v in weeks_dict.items():
     with open(os.path.join(out_dir, f"{year}-{week}.md"), "w") as out_:
         out_.write(f"# {year} week {week}\n\n")
 
-        out_.write(summary_info[f"{year}-{week}"] + "\n\n")
+        try:
+            out_.write(summary_info[f"{year}-{week}"] + "\n\n")
+        except KeyError:
+            print(f"Please place an entry for {year}-{week} in week_roundups.md")
+            floc = os.path.join(out_dir, f"{year}-{week}.md")
+            print(f"See {floc} for information on that week.")
 
         for i, (_, fname) in enumerate(v):
             with open(os.path.join(input_dir, fname), "r") as in_:
