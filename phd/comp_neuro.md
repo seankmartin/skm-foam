@@ -17,7 +17,7 @@ However, I will detail some information from courses and the likes here.
 
 - [Peter Latham](https://www.gatsby.ucl.ac.uk/~pel/)
 - [Elena Agliari - Home](http://elenaagliari.weebly.com/)
-- [](http://users.ictp.it/~marsili/)
+- [Matteo Marsili](http://users.ictp.it/~marsili/)
 - [Andrew Saxe — Department of Experimental Psychology](https://www.psy.ox.ac.uk/team/andrew-saxe)
 - [Yasser Roudi - NTNU](https://www.ntnu.edu/employees/yasser.roudi)
 - [Liam Paninski](http://www.stat.columbia.edu/~liam/)
