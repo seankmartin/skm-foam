@@ -4,7 +4,9 @@ date: 2021--08--14
 type: note
 ---
 
-# The Spike - Mark Humphries
+# Book reviews
+
+## The Spike - Mark Humphries
 
 A very good description of spikes in the brain, wish I had this at the start of my PhD!
 So far nothing really new to me, but however it is important to re-emphasise how many spikes are needed to make just one spike - and the inhibition excitation balance (inhibition is stronger but less of them).

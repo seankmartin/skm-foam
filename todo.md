@@ -3,7 +3,6 @@
 ## Work
 
 - [ ] Check reviewer comments on ER work. Mail Shane about these.
-- [ ] PhD thesis
 - Check the Abbott edited series.
 - Check the papers from the Spike.
 - What already exists in terms of possible ensemble detection / interaction.
@@ -11,15 +10,12 @@
 
 ## Beth LFP
 
-- Final(ish) runs of results and creating figures tables etc.
 - Update the paper.
 - Combine Matheus code with mine and think about how to share data.
-- Done.
-- Why no coherence stats?
 
 ## Website
 
-- Upload a pandas cheat sheet OR build some commonly used functions into my PythonUtils module!
+- Upload a pandas cheat sheet OR build some commonly used functions into my PythonUtils module (both)!
 - Finish my review of games in 2020 and start a new one for 2021.
 - Add Joao Semedo to the list of researchers
 - Keep in mind who else might be recent PhD students for this matter, and similar to Semedo in the same field.
