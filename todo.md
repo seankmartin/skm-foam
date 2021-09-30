@@ -24,3 +24,8 @@
 
 - Properly read the neuroscientist microprocessor paper.
 - Read and make final decision on the stats papers (e.g. Semedo).
+
+## Life
+
+- Driving lessons (book)
+- Fan in bathroom, take cover off and look for a hanging cable.

@@ -26,9 +26,20 @@ The program is heavily inspired by:
 3. Elephant
 4. NWB NC?
 
+## Best GUI tool
+
+- Likely the best thing to use is to continue with pyside (maybe use 6), which is basically pyqt.
+- OR use https://github.com/hoffstadt/DearPyGui - dear py gui, which actually looks really good and might save me a lot of time. It even has in built support for nodes. Just need to make sure it works without a GPU.
+
 ## Considerations
 
 - Implement converters
+- This looks well written, should compare my program to it https://github.com/mouseland/cellpose.
+- Phy would be another good place to check UI on https://github.com/cortex-lab/phy.
+- Check how to add to colab e.g. https://colab.research.google.com/drive/1Qp7RAnPFj8zrhfEGkV7nHbzFiQ8w-4FX?usp=sharing for YASS.
+- Check out integration of things like https://github.com/KordingLab/spykes.
+- Should integrate decoding https://github.com/KordingLab/Neural_Decoding.
+- Add code coverage statistics for the test suite.
 - Delete output folder if -o passed
 - Clear STDout log on program start.
 - Save after functions to different place
@@ -38,6 +49,8 @@ The program is heavily inspired by:
 - Restructure the project to adhere to new PEP guidelines, especially with typing. Related to this, check how to handle default values in classes instead of just using None, so as to adhere to typing (e.g. empty containers instead of None).
 - This would be very helpful to integrate into the code https://mypy.readthedocs.io/en/stable/introduction.html
 - When complete this work, try run with num_workers 4 and see if all results are same and evaluate time benefits.
+- Really consider getting the code to work well within colab, or at least with data from the cloud.
+- Clearer caching of results.
 
 ## Paragraph from Shane
 

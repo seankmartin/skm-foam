@@ -9,6 +9,10 @@ type: note
 ## Look interesting
 
 - [brainrender](https://github.com/brainglobe/brainrender) - very pretty looking vis, and recently updated.
+- [brainglobe](https://github.com/brainglobe/bg-atlasapi) - atlases in multiple formats, would be good to look at for exploration! Note that brainglobe have two repos now that are interesting, so should look at them in general.
+- [Spectral connectivity](https://github.com/Eden-Kramer-Lab/spectral_connectivity) - interesting LFP connectivity, could maybe try on Beth's data.
+- [CI analysis](https://github.com/flatironinstitute/CaImAn) - looks interesting.
+- [Matrix time series](https://github.com/TDAmeritrade/stumpy) - Stumpy looks a good general library.
 
 ## Not my own list
 
