@@ -38,3 +38,7 @@ The program is heavily inspired by:
 - Restructure the project to adhere to new PEP guidelines, especially with typing. Related to this, check how to handle default values in classes instead of just using None, so as to adhere to typing (e.g. empty containers instead of None).
 - This would be very helpful to integrate into the code https://mypy.readthedocs.io/en/stable/introduction.html
 - When complete this work, try run with num_workers 4 and see if all results are same and evaluate time benefits.
+
+## Paragraph from Shane
+
+The results will be graphically displayed, as will the processing method. A click and drag interface will allow processing flow-charts to be constructed and reconstructed while the consequent results are seamlessly displayed and updated. Multi-route and branched flow-charts will be possible, allowing for easy comparison of different processing methods and different processing parameters. Dialogue boxes will offer explanation and detailed customisation of processing units. The automation will be done within Python, which has the advantage that many of the analysis tools already have freely available Python implementations.
