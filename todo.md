@@ -10,6 +10,7 @@
 
 ## Beth LFP
 
+- Run openfield coherence stats if not done already.
 - Update the paper.
 - Combine Matheus code with mine and think about how to share data.
 
@@ -19,6 +20,7 @@
 - Finish my review of games in 2020 and start a new one for 2021.
 - Add Joao Semedo to the list of researchers
 - Keep in mind who else might be recent PhD students for this matter, and similar to Semedo in the same field.
+- Make a short article about some of my code bases.
 
 ## Papers
 

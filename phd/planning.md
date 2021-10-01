@@ -11,3 +11,8 @@ So figuring out the last steps for thesis now to do my final projects.
 
 For tomorrow. In the morning I have the oxford Neuroscience at 9:30, so I need to be ready for that.
 As such, get up and do urgent things at desk, but be ready to come back for 9:30.
+
+## Plan at 01-10-2021
+
+Gather together the interesting datasets, and how they are accessed - this might lead to me an integrative style study - which would definitely be adding value.
+Check Mark Humphries the spike paper on an integrative approach for inspiration.
