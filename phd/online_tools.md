@@ -6,6 +6,8 @@ type: note
 
 # Online tools
 
+[My website](https://seankmartin.netlify.app/neuroscience/resources/)
+
 ## Look interesting
 
 - [brainrender](https://github.com/brainglobe/brainrender) - very pretty looking vis, and recently updated.

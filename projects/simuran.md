@@ -26,6 +26,16 @@ The program is heavily inspired by:
 3. Elephant
 4. NWB NC?
 
+## GUI requirements
+
+1. Dynamically adding nodes either via another window or a popup menu.
+2. Support custom nodes.
+3. Set parameters on nodes and use these for computation.
+4. Show plots on right click.
+5. Show tooltips of variables.
+
+Currently planning to implement in dear pygui, but check https://www.blenderfreak.com/tutorials/node-editor-tutorial-series/ if not working out.
+
 ## Best GUI tool
 
 - Likely the best thing to use is to continue with pyside (maybe use 6), which is basically pyqt.
@@ -51,6 +61,8 @@ The program is heavily inspired by:
 - When complete this work, try run with num_workers 4 and see if all results are same and evaluate time benefits.
 - Really consider getting the code to work well within colab, or at least with data from the cloud.
 - Clearer caching of results.
+- Need to convert SIMURAN logging to rich https://github.com/willmcgugan/rich.
+- Covert CLI to https://typer.tiangolo.com/.
 
 ## Paragraph from Shane
 
