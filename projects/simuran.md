@@ -26,12 +26,45 @@ The program is heavily inspired by:
 3. Elephant
 4. NWB NC?
 
+## GUI requirements
+
+1. Dynamically adding nodes either via another window or a popup menu.
+2. Support custom nodes.
+3. Set parameters on nodes and use these for computation.
+4. Show plots on right click.
+5. Show tooltips of variables.
+
+Currently planning to implement in dear pygui, but check https://www.blenderfreak.com/tutorials/node-editor-tutorial-series/ if not working out.
+
+## Best GUI tool
+
+- Likely the best thing to use is to continue with pyside (maybe use 6), which is basically pyqt.
+- OR use https://github.com/hoffstadt/DearPyGui - dear py gui, which actually looks really good and might save me a lot of time. It even has in built support for nodes. Just need to make sure it works without a GPU.
+
 ## Considerations
 
 - Implement converters
+- This looks well written, should compare my program to it https://github.com/mouseland/cellpose.
+- Phy would be another good place to check UI on https://github.com/cortex-lab/phy.
+- Check how to add to colab e.g. https://colab.research.google.com/drive/1Qp7RAnPFj8zrhfEGkV7nHbzFiQ8w-4FX?usp=sharing for YASS.
+- Check out integration of things like https://github.com/KordingLab/spykes.
+- Should integrate decoding https://github.com/KordingLab/Neural_Decoding.
+- Add code coverage statistics for the test suite.
 - Delete output folder if -o passed
 - Clear STDout log on program start.
 - Save after functions to different place
 - New mode where parameters are not written! A read only mode.
 - Improve SIMURAN help.
 - Support tdqm progress bar or none.
+- Restructure the project to adhere to new PEP guidelines, especially with typing. Related to this, check how to handle default values in classes instead of just using None, so as to adhere to typing (e.g. empty containers instead of None).
+- This would be very helpful to integrate into the code https://mypy.readthedocs.io/en/stable/introduction.html
+- When complete this work, try run with num_workers 4 and see if all results are same and evaluate time benefits.
+- Really consider getting the code to work well within colab, or at least with data from the cloud.
+- Clearer caching of results.
+- Need to convert SIMURAN logging to rich https://github.com/willmcgugan/rich.
+- Covert CLI to https://typer.tiangolo.com/.
+- SIMURAN takes a VERY long time to load, should consider this.
+
+## Paragraph from Shane
+
+The results will be graphically displayed, as will the processing method. A click and drag interface will allow processing flow-charts to be constructed and reconstructed while the consequent results are seamlessly displayed and updated. Multi-route and branched flow-charts will be possible, allowing for easy comparison of different processing methods and different processing parameters. Dialogue boxes will offer explanation and detailed customisation of processing units. The automation will be done within Python, which has the advantage that many of the analysis tools already have freely available Python implementations.
