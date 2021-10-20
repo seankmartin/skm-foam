@@ -5,7 +5,13 @@ type: note
 
 # Connectivity
 
+## Changes to make
+
+1. Check discussion with Shane on last review, but essentially needs some restructuring.
+2. Cite this https://www.sciencedirect.com/science/article/pii/S0959438817303161?via%3Dihub#bib0545 (Steinmetz on challenges - mentions studying connected neurons) and the related.
+
 ## Papers
+
 Functional organization of the hippocampal longitudinal axis (https://www.nature.com/articles/nrn3785) - this paper mentions how anatomical connectivity varies in parts of the HC differ (may be a reference for when I mention space)
 
 Principles of ipsilateral and contralateral cortico-cortical connectivity in the mouse (https://www.biorxiv.org/content/10.1101/033878v1.full ) - this mentions how “Structural connectivity among cortical areas provides the substrate for information exchange in the brain and is characterized by the presence or absence of connections between specific areas.”. Also “wiring cost reduction design” and the intro well describes why interested in connectivity as it is the anatomical basis of communication. Additionally, it mentions a bit about how the connections act, so might be stepping on it a bit if considering network topology.
