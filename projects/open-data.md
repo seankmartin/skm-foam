@@ -9,6 +9,11 @@ type: note
 The idea is to add value by analysing open data, this could most likely come from a combination of different data sources.
 The sources below are also in my Zotero library under OpenData
 
+## Other lists
+
+- https://www.nwb.org/example-datasets/
+- https://github.com/openlists/ElectrophysiologyData
+
 ## Research strategy
 
 1. Previous papers that I am aware of.
@@ -86,8 +91,13 @@ The sources below are also in my Zotero library under OpenData
 
 ## Inspiration
 
-- [10.1016/j.pneurobio.2012.09.004](https://www.sciencedirect.com/science/article/pii/S0301008212001505)
+- [10.1016/j.pneurobio.2012.09.004](https://www.sciencedirect.com/science/article/pii/S0301008212001505) - the writing is a bit dense, but the idea is interesting.
+- https://elifesciences.org/articles/61277/executable
 - Use Open Data in my Zotero.
+
+## Ideas for study
+
+1. Measure population activity in different states across these datasets. Describe the population and the difference in tasks, very much akin to Humpries 2012 on single cells.
 
 
 ## Ideas for thesis
