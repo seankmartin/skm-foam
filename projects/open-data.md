@@ -98,11 +98,21 @@ The sources below are also in my Zotero library under OpenData
 ## Ideas for study
 
 1. Measure population activity in different states across these datasets. Describe the population and the difference in tasks, very much akin to Humpries 2012 on single cells.
+2. Population dynamics.
 
+## Essence
 
-## Ideas for thesis
+So going back to basics, the interest is communication / interaction between neurons and brain regions.
+Options would include population dynamics in different regions and their impact, or in the same regions, or perhaps new methods. However, I think the latter would come out most naturally from trying to actually do a large open data experiment.
+So if we think of LFADS, that would be one option to do something similar.
 
-1. Explain the growth in recording fidelity (e.g. https://www.sciencedirect.com/science/article/pii/S0959438817303161?via%3Dihub - Steinmetz 2018)
-2. A table of comparison is always nice.
-3. In Siegle et al. Nature 2021, they used CA1, CA3 and DG units as controls because they have so many units. In this case, to check their visual responsivity pipeline. This is a another great use case of the larger scale data.
-4. Integrate SIMURAN with tools like AllenSDK and ONE - they are the future, and I am going to use them so it is needed.
+How to start at this and make a prototype style for this.
+
+1. Create a new git repository.
+2. Start to describe how to download the data within this repository.
+3. Create figure folders.
+4. So in the best case, I would have metadata to work with, and can start to describe.
+5. From there I can do basic descriptive statistics.
+6. At this point I should be able to form solid hypotheses, however I should be able to start thinking about these already - just ideas not formalised.
+7. From there I can start to gather the analyses that could be used to test these hypotheses, and perhaps find the gaps that might exist.
+8. Analysis time! Any developed methods should be verified elsewhere, and perhaps presented separately.

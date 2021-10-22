@@ -12,3 +12,14 @@ tags: PhD
 ## Things to integrate
 
 1. TODO code, more specifically what? Likely some results from Ham, MPC programming etc?
+
+## Ideas for thesis from open data
+
+1. Explain the growth in recording fidelity (e.g. https://www.sciencedirect.com/science/article/pii/S0959438817303161?via%3Dihub - Steinmetz 2018)
+2. A table of comparison is always nice.
+3. In Siegle et al. Nature 2021, they used CA1, CA3 and DG units as controls because they have so many units. In this case, to check their visual responsivity pipeline. This is a another great use case of the larger scale data.
+4. Integrate SIMURAN with tools like AllenSDK and ONE - they are the future, and I am going to use them so it is needed.
+
+## From LFP papers
+
+Bits from the discussion on the origin of LFP might be worth further discussing, how I see it as a byproduct - but it is of course not epiphenomenal, the electrical/chemical influence of these oscillations is certainly impactful on spiking. 
