@@ -1,4 +1,5 @@
 import os
+from collections import OrderedDict
 from datetime import datetime
 
 # Paths
@@ -7,9 +8,9 @@ input_dir = os.path.join(here, "journal")
 out_dir = os.path.join(here, "weekly_summary")
 
 # Process into weeks
-journal_files = [f for f in os.listdir(os.path.join(here, "journal"))]
+journal_files = sorted([f for f in os.listdir(os.path.join(here, "journal"))])
 dates = [datetime.strptime(os.path.splitext(f)[0], "%Y-%m-%d") for f in journal_files]
-weeks_dict = {}
+weeks_dict = OrderedDict()
 for fname, d in zip(journal_files, dates):
     year, week, _ = d.isocalendar()
     if week not in weeks_dict.keys():
@@ -21,7 +22,7 @@ os.makedirs(out_dir, exist_ok=True)
 
 # Get week summaries
 summary_file = open(os.path.join(out_dir, "week_roundups.md"), "r")
-summary_info = {}
+summary_info = OrderedDict()
 key = None
 info = []
 for line in summary_file.readlines():
@@ -32,6 +33,8 @@ for line in summary_file.readlines():
             summary_info[key] = "".join(info)[:-1]
         info = []
         key = "-".join(line[2:].split())
+    elif line.startswith("[//begin"):
+        break
     else:
         info.append(line)
 summary_info[key] = "".join(info)
