@@ -28,7 +28,7 @@ The sources below are also in my Zotero library under OpenData
 4. What has already been determined from this data?
 5. What would I like to investigate in this data?
 
-## Papers
+## Topics
 
 - What
 - Recording modality
@@ -39,6 +39,8 @@ The sources below are also in my Zotero library under OpenData
 - Size
 - Already known
 - My questions
+
+## Non-human data
 
 ### Stringer et al. Science 2019
 
@@ -88,6 +90,25 @@ The sources below are also in my Zotero library under OpenData
 - Npixel probes
 - Open Neurophysiology Environment [One](https://int-brain-lab.github.io/iblenv/notebooks_external/one_quickstart.html). Seems some data also on [Alyx](https://alyx.readthedocs.io/en/latest/).
 - Explore what is available - many opportunities here!
+
+## Human data
+
+- Difficulty https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0166598
+- From this, recordings are long and noisy.
+- Most recordings are performed in epileptic patients - and as such are in the MTL (HC, amyg, EC, PHC).
+- Parkinson's is another, but DBS
+
+### Fedele et al. Nature 2021
+
+- https://www.nature.com/articles/s41597-020-00790-x?sf241908532=1
+- Recordings performed in humans in the amygdala in 9 patients iEEG and single-neuron recordings.
+- Movies (horror) presented for fear response.
+
+### Rey et al. Current Bio 2020
+
+- https://doi.org/10.1016/j.cub.2020.01.035
+- Recordings in MTL (Medial Temporal Lobe)
+- From 450 units recording, only 35 could be used - 16 in Amygdala and 19 from HC.
 
 ## Inspiration
 

@@ -28,6 +28,12 @@ Coding / cleaning up code / writing thesis etc.
 - Make weekly summaries.
 - Update template of thesis and update the contents of the thesis.
 - Finish the changes to make connectivity paper and move them on.
+- Include analysis methods in analysis methods doc.
+- Include paper thoughts in paper thoughts doc.
+- Clean up my google drive for my different papers so that I can more easily put in thesis.
+- Transcribe useful things from notebook.
+- Make thoughts website public and curate it.
+- One sentence summaries of my research works.
 
 ## Beth LFP
 
@@ -52,3 +58,5 @@ Coding / cleaning up code / writing thesis etc.
 - Driving lessons (book)
 - Fan in bathroom, take cover off and look for a hanging cable.
 - Update my daily habits and tracking of ideas.
+- Consider creating a game of life style.
+- Consider making public this site, and remove anything that should be private.

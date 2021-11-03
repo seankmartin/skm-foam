@@ -71,8 +71,12 @@ For instance, if you play too many video games, unplug the console and put it in
 
 ## Law 2 - Make it Attractive
 
+I stopped reading the book, so don't have example here.
 
 ## Law 3 - Make it Easy
 
+I stopped reading the book, so don't have example here.
 
 ## Law 4 - Make it Satisfying
+
+I stopped reading the book, so don't have example here.

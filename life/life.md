@@ -23,3 +23,25 @@ These are great for concentration:
 
 - Classical music
 - Study with me videos
+
+## Video games
+
+Make downtime for video games, don't just ignore them as too difficult to fit into schedule.
+Further, try to consider life as a game.
+
+Think of what makes a game satisfying.
+E.g.
+
+- Clear progress and visualisation of progress.
+- Tailored challenges.
+- Changing environments.
+- Frequent rewards that make the character stronger.
+- Clear direction.
+- Nice backing music.
+- Social aspect.
+- Feelings of autonomy.
+
+In particular, your rewards should help what you are doing.
+E.g. if I go to gym for a full month, week etc. Then I can reward myself with a new set of gym gear.
+
+To implement this properly, I will have to think about it, maybe a journal or program?
