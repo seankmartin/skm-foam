@@ -20,6 +20,16 @@ Also an interesting stroy and could be expanded to information theory past just 
 I would need to investigate how many studies look for neural corr, and if they claim it is "good" - as opposed to "bad" here.
 Also this - claiming mixed selectivity is there https://www.sciencedirect.com/science/article/pii/S0959438816000118.
 
+Essentially, what I think this would boil down to is that signal correlations reduce task performance.
+However, there is much discussion on this, so it is a large topic (which is both good and bad).
+The most discussion is around correlation, information, redundancy, probability (Bayesian and frequentist), and a bit of decoding.
+
+**Papers:**
+
+- [Information-limiting correlations | Nature Neuroscience](https://www.nature.com/articles/nn.3807)
+- [Correlated neuronal discharge rate and its implications for psychophysical performance | Nature](https://www.nature.com/articles/370140a0)
+- [Redundancy reduction revisited](https://www.tandfonline.com/doi/abs/10.1080/net.12.3.241.253)
+
 ### Population dynamics are similar between brain regions as long as they have reasonably similar stuctural connectivity.
 
 Essentially, this would be claiming that neural activity really is dominated by structural activity.
@@ -40,6 +50,11 @@ Individual distinct tasks occupy different spaces in a flow field of neural acti
 ANNs are either goal driven (get a network to produce the outcome, but don't care too much about the underlying structure). For example as in Sussilo's work, where you check the dynamics after training a net.
 This has been employed on retinal ganglion cells and also in PMC (primary motor cortex).
 Or they are data driven, whereby you attempt to capture each neuron in the ANN (e.g. Paninski's work).
+
+### Neuron groupings by brain area are meaningful
+
+In terms of just functional groupings from a matrix of spiking activity, an automatic algorithm could estimate which neurons are from different brain areas.
+This would seem to agree with Semedo 2014 - extracting latent structure.
 
 ## Other lists
 
