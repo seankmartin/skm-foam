@@ -1,6 +1,6 @@
 # SKM Foam
 
-My knowledge base
+My knowledge base. Also see [My personal website](https://seankmartin.netlify.app) for more structured information. Thoughts are my own, and any mistakes are fully my own responsibility.
 
 ## Popular pages
 

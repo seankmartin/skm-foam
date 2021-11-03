@@ -23,3 +23,9 @@ python merge-journal.py
 python cp-docs.py
 mkdocs build
 ```
+
+Then to publish to GitHub:
+
+```Bash
+mkdocs gh-deploy
+```

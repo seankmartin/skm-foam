@@ -9,6 +9,38 @@ type: note
 The idea is to add value by analysing open data, this could most likely come from a combination of different data sources.
 The sources below are also in my Zotero library under OpenData
 
+## Hypotheses
+
+### Increased spike count correlation decreases task perfomance
+
+There already seems to be evidence for this. E.g. Rigotti et al. reference 19 *check in more detail from Cunningham towards the neural population doctrine.
+Drawback - need to have data that involves tasks - measureable performance, not sure how many of these there are.
+In theory though, this would work with any brain regions which is a big plus.
+Also an interesting stroy and could be expanded to information theory past just correlation.
+I would need to investigate how many studies look for neural corr, and if they claim it is "good" - as opposed to "bad" here.
+Also this - claiming mixed selectivity is there https://www.sciencedirect.com/science/article/pii/S0959438816000118.
+
+### Population dynamics are similar between brain regions as long as they have reasonably similar stuctural connectivity.
+
+Essentially, this would be claiming that neural activity really is dominated by structural activity.
+It makes sense on a base level, as does the previous hypothesis.
+Big plus is that almost anything could be used, but I don't really know if there is much support on this.
+
+### Systems level hypothesis
+
+This one would be a bit TBD, but pick my favourite brain regions/ data avaiable in my favourite tasks with my favourite hypothesis about this.
+It would be delving a lot into a specific thing.
+
+### Distinct processes occupy different space in flow field
+
+Individual distinct tasks occupy different spaces in a flow field of neural activity e.g. LFADS.
+
+### ANNs similar to real network
+
+ANNs are either goal driven (get a network to produce the outcome, but don't care too much about the underlying structure). For example as in Sussilo's work, where you check the dynamics after training a net.
+This has been employed on retinal ganglion cells and also in PMC (primary motor cortex).
+Or they are data driven, whereby you attempt to capture each neuron in the ANN (e.g. Paninski's work).
+
 ## Other lists
 
 - https://www.nwb.org/example-datasets/
