@@ -9,6 +9,25 @@ type: note
 The idea is to add value by analysing open data, this could most likely come from a combination of different data sources.
 The sources below are also in my Zotero library under OpenData
 
+## Fundamentals
+
+We have the following types of data usually.
+
+1. Neural data, e.g. MRI, LFP, spikes, calcium concentration
+2. Sensory data, e.g. stimuli, environment
+3. Behavior data, e.g. running speed, whisker movement, grooming etc.
+4. Internal state e.g. hunger, interest etc.
+
+1, 2 and 3 would be measurable.
+
+### Train and test
+
+To avoid having to create train and test data, it is possible that one dataset could be used for both.
+This could be performed by splitting the data into chunks of train and test. For example in Stringer et al. 2019.
+So Train -- Test -- Train -- Test ...
+
+You can also test reliability by computing a particular measure on two separate parts of the recording.
+
 ## Hypotheses
 
 ### Increased spike count correlation decreases task perfomance
@@ -24,11 +43,33 @@ Essentially, what I think this would boil down to is that signal correlations re
 However, there is much discussion on this, so it is a large topic (which is both good and bad).
 The most discussion is around correlation, information, redundancy, probability (Bayesian and frequentist), and a bit of decoding.
 
+Note on the topic of correlations, [Correlations and Neuronal Population Information | Annual Review of Neuroscience](https://www.annualreviews.org/doi/10.1146/annurev-neuro-070815-013851) has a good description of the different correlations usually used in neuroscience.
+"Work in the past few decades has greatly advanced our understanding of how neuronal popu-
+lation information is influenced by correlations. Theoretical work has been instrumental in this
+progress. It has shown us that some forms of correlations limit information, whereas others do
+not. At least in the context of population information, theoretical progress has also revealed that
+simply characterizing response statistics can have limited value: Describing correlations does not
+translate into understanding information, as the largest correlations do not necessarily have the
+strongest effect on information. We view this progress as a cautionary tale because we are entering
+an era when our power to measure brain activity is exploding, while our conceptual frameworks
+remain underdeveloped. Our situation is perhaps analogous to pre-Newtonian physics, which
+attempted to understand the movements of the stars and planets through extremely careful and
+detailed measurements. Ultimately, however, orbits were understood in a straightforward way
+with Newtonian physics. We see a risk that we—like pre-Newtonian physicists, but abetted by
+much more powerful instrumentation—will drown in a sea of description, measuring and char-
+acterizing population activity patterns rather than understanding the computations and functions
+they underlie."
+
 **Papers:**
 
 - [Information-limiting correlations | Nature Neuroscience](https://www.nature.com/articles/nn.3807)
 - [Correlated neuronal discharge rate and its implications for psychophysical performance | Nature](https://www.nature.com/articles/370140a0)
 - [Redundancy reduction revisited](https://www.tandfonline.com/doi/abs/10.1080/net.12.3.241.253)
+- [Neural correlations, population coding and computation | Nature Reviews Neuroscience](https://www.nature.com/articles/nrn1888)
+- [Correlations enhance the behavioral readout of neural population activity in association cortex | Nature Neuroscience](https://www.nature.com/articles/s41593-021-00845-1)
+- [Good decisions require more than information | Nature Neuroscience](https://www.nature.com/articles/s41593-021-00883-9)
+- [Correlations and Neuronal Population Information | Annual Review of Neuroscience](https://www.annualreviews.org/doi/10.1146/annurev-neuro-070815-013851)
+- [Learning and attention reveal a general relationship between population activity and behavior](https://doi.org/10.1126/science.aao0284)
 
 ### Population dynamics are similar between brain regions as long as they have reasonably similar stuctural connectivity.
 
@@ -137,6 +178,14 @@ This would seem to agree with Semedo 2014 - extracting latent structure.
 - Npixel probes
 - Open Neurophysiology Environment [One](https://int-brain-lab.github.io/iblenv/notebooks_external/one_quickstart.html). Seems some data also on [Alyx](https://alyx.readthedocs.io/en/latest/).
 - Explore what is available - many opportunities here!
+
+## DANDI archive
+
+- https://gui.dandiarchive.org/#/dandiset/000037
+- https://gui.dandiarchive.org/#/dandiset/000045
+- https://gui.dandiarchive.org/#/dandiset/000022
+- https://gui.dandiarchive.org/#/dandiset/000061
+- https://gui.dandiarchive.org/#/dandiset/000115
 
 ## Human data
 
