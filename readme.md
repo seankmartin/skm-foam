@@ -12,6 +12,7 @@ mkdocs serve
 ```
 
 Then:
+
 ```Bash
 start chrome http://127.0.0.1:8000/
 ```
@@ -23,4 +24,12 @@ python merge-journal.py
 python cp-docs.py
 mkdocs build
 mkdocs gh-deploy
+```
+
+## Convert a file to another format
+
+For instance, to convert projects\open-data to latex
+
+```Bash
+pandoc -r markdown-auto_identifiers projects\open-data.md -t latex -o open_data.tex 
 ```

@@ -43,6 +43,11 @@ Essentially, what I think this would boil down to is that signal correlations re
 However, there is much discussion on this, so it is a large topic (which is both good and bad).
 The most discussion is around correlation, information, redundancy, probability (Bayesian and frequentist), and a bit of decoding.
 
+This could actually be very important [Different population dynamics in the supplementary motor area and motor cortex during reaching](https://academiccommons.columbia.edu/doi/10.7916/d8-0a1x-7b98)
+
+- They show that on a single neuron level, the responses from supplementary motor area and motor cortex are similar but on a population level they appear to be performing different functions.
+- Remember the proposed relationship (by me, but seems pretty clear) - that correlation increase, decreases the dimensionality of the neural representation. As such papers that discuss dimensionality and task performance also investigate the same thing, such as [The importance of mixed selectivity in complex cognitive tasks | Nature](https://www.nature.com/articles/nature12160). Note that this paper has an absolutely massive suplemental material associated with it.
+
 Note on the topic of correlations, [Correlations and Neuronal Population Information | Annual Review of Neuroscience](https://www.annualreviews.org/doi/10.1146/annurev-neuro-070815-013851) has a good description of the different correlations usually used in neuroscience.
 "Work in the past few decades has greatly advanced our understanding of how neuronal popu-
 lation information is influenced by correlations. Theoretical work has been instrumental in this

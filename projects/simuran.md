@@ -64,6 +64,7 @@ Currently planning to implement in dear pygui, but check https://www.blenderfrea
 - Need to convert SIMURAN logging to rich https://github.com/willmcgugan/rich.
 - Covert CLI to https://typer.tiangolo.com/.
 - SIMURAN takes a VERY long time to load, should consider this.
+- Intergrate the metadata set up with https://tutorials.datajoint.io/index.html.
 
 ## Paragraph from Shane
 
