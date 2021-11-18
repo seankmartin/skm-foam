@@ -8,6 +8,7 @@ tags: PhD
 
 1. Cool vis with brainrender https://www.biorxiv.org/content/10.1101/2020.02.23.961748v2.full
 2. OR a vis with Inviwo (I have one these lying around).
+3. Make a video/multiple videos on explanations. Can use e.g. https://github.com/ManimCommunity/manim.
 
 ## Things to integrate
 
@@ -23,3 +24,10 @@ tags: PhD
 ## From LFP papers
 
 Bits from the discussion on the origin of LFP might be worth further discussing, how I see it as a byproduct - but it is of course not epiphenomenal, the electrical/chemical influence of these oscillations is certainly impactful on spiking. 
+
+## Visualisations
+
+- https://connectivity.brain-map.org/3d-viewer
+- Inviwo
+- Atlas.py in my connectivity paper code
+- brainrender examples (mouse light api?)
