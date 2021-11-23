@@ -31,3 +31,10 @@ Bits from the discussion on the origin of LFP might be worth further discussing,
 - Inviwo
 - Atlas.py in my connectivity paper code
 - brainrender examples (mouse light api?)
+
+## APIs
+
+- brainglobe (morphapi, brainglobe-atlas)
+- neuroM (blue brain)
+- Allen SDK
+- ONE (Open Neurophysiology Environment)

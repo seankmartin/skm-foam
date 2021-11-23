@@ -42,3 +42,7 @@ This is further emphasised with random sorting.
 
 - Usually either goal directed or data driven. See cunningham 2017 for more.
 - Effective in areas such as PMC and retinal ganglion, but not sure on multi-region ANNs.
+
+## To check
+
+- Anything in brainbox? https://github.com/int-brain-lab/ibllib/blob/master/brainbox/ephys_plots.py

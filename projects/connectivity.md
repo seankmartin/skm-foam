@@ -9,6 +9,7 @@ type: note
 
 1. Check discussion with Shane on last review, but essentially needs some restructuring.
 2. Cite this https://www.sciencedirect.com/science/article/pii/S0959438817303161?via%3Dihub#bib0545 (Steinmetz on challenges - mentions studying connected neurons) and the related.
+3. This needs to be included https://direct.mit.edu/netn/article/3/1/217/2194/High-resolution-data-driven-model-of-the-mouse (Our model relaxes the assumption of homogeneity of connections within a region and instead assumes smoothness across major brain divisions)
 
 ## Papers
 
