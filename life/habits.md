@@ -71,11 +71,30 @@ For instance, if you play too many video games, unplug the console and put it in
 
 ## Law 2 - Make it Attractive
 
-I stopped reading the book, so don't have example here.
+Habits are solutions to age old problems.
+As such, you can build habits up to the point where they cue the next behaviour.
+
+E.g. If you put your headphones on and play music to focus, you can reach the point where headphones help you concentrate even if not playing music.
+Or, if you breath deeply and slowly three times before doing something you like, such as petting the dog, then that action can cue happiness.
 
 ## Law 3 - Make it Easy
 
-I stopped reading the book, so don't have example here.
+Don't be in motion - be in action.
+Motion is planning, strategising etc. Action is doing, completing.
+
+Each day is made up of many moments, but small decisions at key forks decide if your day will be good or bad.
+For example, just putting on your gym clothes is enough to make sure you get there - this will be a big change.
+
+Change every habit to a two minute version of it to start. (gateway habit - master the habit of showing up.)
+Standardise before you optimise a habit.
+
+E.g. to be an early riser
+
+1. Be home by 10pm.
+2. All devices off by 10pm.
+3. Be in bed at 10pm.
+4. Lights off at 10pm.
+5. Wake at 6am.
 
 ## Law 4 - Make it Satisfying
 
