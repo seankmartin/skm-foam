@@ -27,7 +27,7 @@ This is further emphasised with random sorting.
 - Implemented in Stringer et al. Science 2019 but I should look for another place too.
 - Needs thousands of cells recorded per area - so tough without CI TBH.
 
-## Peer prediction anlaysis
+## Peer prediction analysis
 
 - Predict acitvity of one neuron from the others.
 - To contrast with SVCA, "SVCA finds the dimensions of activity in a large population that can be most reliably predicted from a held-out set of neurons" Stringer et al. 2019.
