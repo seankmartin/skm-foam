@@ -1,5 +1,7 @@
 # SIMURAN
 
+Many considerations listed on my Github.
+
 I have a package called SIMURAN that is designed to help simplify large analysis in Python. I will see if I can get this to a state where it would be publishable. It certainly seems useful for Axona data. The big question is can it be used for other data, such as neuropixels for example. If it can, it may well be a goer!
 
 Really I think the big push for this would be getting good use cases out there.

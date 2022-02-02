@@ -3,6 +3,11 @@
 ## Papers found off of PC
 
 - https://www.biorxiv.org/content/10.1101/2021.08.30.458230v1.full.pdf
+- Npixels in humans.
+- Does Nscience care about averages.
+- LFP https://www.biorxiv.org/content/10.1101/2021.05.31.446454v1 and https://www.sciencedirect.com/science/article/pii/S0896627321007108
+- Summarised here https://twitter.com/JAlGallego/status/1399676429139427333
+- https://gui.dandiarchive.org/#/dandiset/search?search=LFP and https://openneuro.org/ for LFP data etc.
 
 ## To check
 

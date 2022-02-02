@@ -1,39 +1,42 @@
 # Todo
 
-## Written plan
+## List with timelines (rough guide)
 
-The utmost priority is to finish the investigation of the open datasets and get that repository set up.
-Following on from this I need to collect hypotheses and see which would be most interesting to investigate.
-Then gather the analysis methods together and think of what would need to be created new.
-This would involve gathering together the ideas from the books etc. 
-And would be a nice wrap up from there.
+1. Have redraft of prob connection paper and the bits for ER by end of next week (inc weekend) so Jan 30.
+2. Have application to Allen and 2 references finalised by Jan 31.
+3. Synthesise recent LFP work by others and consolidate these ideas with what we may be seeing in the ATNx SUB study. Write rough interpretation in thesis, and get it out of my headspace for now. That should be only a week max so Feb 6.
+4. Submit to review for neurochat (the small one with the new link to the file etc.) so I can mention it in progress meeting. A small level of effort Feb 6.
+5. Clean up my writing on the open data, and start analysing even basic stats on the most promising set. This is a reasonably sized task, but for something basic maybe 2-3 weeks including updating my software tool in tandem. So Feb 27
+6. At this point, I'd probably want to focus on my progress meeting as it is in two weeks. So a lot of Thesis writing, submitting loose papers or reviews in case they fall through the cracks of this plan(?) preparing a presentation etc. Mar 11
+7. The progress meeting won't take all the time over that two weeks, so should have time also for whatever project is most pressing starting in Mar.
 
-Then I need to update my plan for my thesis and send it on to Shane.
+## Other tasks
 
-Following on from this I need to finish my paper(s).
-
-From there, I need to regather and fix up my notes, my github repository, website etc.
-Basically get what I can ready to go so that I can crack on with these papers.
-While doing this, I need to add and update where I can on my thesis.
-
-Finally, getting cracking!
-Coding / cleaning up code / writing thesis etc.
+- Finish JASP review (1 week - Feb 7)
 
 ## Work
 
-- Check reviewer comments on ER work. Mail Shane about these.
 - Check the Abbott edited series.
-- Check the papers from the Spike.
 - What already exists in terms of possible ensemble detection / interaction.
-- Make weekly summaries.
-- Update template of thesis and update the contents of the thesis.
-- Finish the changes to make connectivity paper and move them on.
 - Include analysis methods in analysis methods doc.
-- Include paper thoughts in paper thoughts doc.
-- Clean up my google drive for my different papers so that I can more easily put in thesis.
-- Transcribe useful things from notebook.
-- Make thoughts website public and curate it.
 - One sentence summaries of my research works.
+
+## Connectivity paper
+
+Short term plan:
+
+1. Compare figure names in results folder to those in produce figures code file.
+2. Check D=1, =2, =3 on new sets.
+3. Integrate old appendix info into thesis.
+4. Plan and code final experiments.
+5. Test the plots for these where possible on smaller sets of data.
+6. Run the tests.
+7. Incorporate results into paper and write up results + improve methods etc.
+
+Long term changes:
+
+- Cite this <https://www.sciencedirect.com/science/article/pii/S0959438817303161?via%3Dihub#bib0545> (Steinmetz on challenges - mentions studying connected neurons) and the related.
+- This needs to be included <https://direct.mit.edu/netn/article/3/1/217/2194/High-resolution-data-driven-model-of-the-mouse> (Our model relaxes the assumption of homogeneity of connections within a region and instead assumes smoothness across major brain divisions)
 
 ## Beth LFP
 
@@ -42,7 +45,6 @@ Coding / cleaning up code / writing thesis etc.
 
 ## Website
 
-- Upload a pandas cheat sheet OR build some commonly used functions into my PythonUtils module (both)!
 - Finish my review of games in 2020 and start a new one for 2021.
 - Add Joao Semedo to the list of researchers
 - Keep in mind who else might be recent PhD students for this matter, and similar to Semedo in the same field.
@@ -52,11 +54,3 @@ Coding / cleaning up code / writing thesis etc.
 
 - Properly read the neuroscientist microprocessor paper.
 - Read and make final decision on the stats papers (e.g. Semedo).
-
-## Life
-
-- Driving lessons (book)
-- Fan in bathroom, take cover off and look for a hanging cable.
-- Update my daily habits and tracking of ideas.
-- Consider creating a game of life style.
-- Consider making public this site, and remove anything that should be private.
