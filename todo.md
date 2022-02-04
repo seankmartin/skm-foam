@@ -1,5 +1,12 @@
 # Todo
 
+## Meeting 07/02/2022
+
+- Review inbox
+- Print and gather info on projects and thesis.
+- Show draft layout of connect paper + any others.
+- Prepare a plan of meeting.
+
 ## List with timelines (rough guide)
 
 1. Have redraft of prob connection paper and the bits for ER by end of next week (inc weekend) so Jan 30.
@@ -43,6 +50,7 @@ Long term changes:
 - Cite this <https://www.sciencedirect.com/science/article/pii/S0959438817303161?via%3Dihub#bib0545> (Steinmetz on challenges - mentions studying connected neurons) and the related.
 - This needs to be included <https://direct.mit.edu/netn/article/3/1/217/2194/High-resolution-data-driven-model-of-the-mouse> (Our model relaxes the assumption of homogeneity of connections within a region and instead assumes smoothness across major brain divisions)
 - Watch my two videos about this in Gdrive and incorporate the information from them.
+- Put visp and visl together in left hemi on OSF. And way to pick left or right in code in matrix.py.
 
 ## Beth LFP
 
