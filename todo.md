@@ -10,6 +10,11 @@
 6. At this point, I'd probably want to focus on my progress meeting as it is in two weeks. So a lot of Thesis writing, submitting loose papers or reviews in case they fall through the cracks of this plan(?) preparing a presentation etc. Mar 11
 7. The progress meeting won't take all the time over that two weeks, so should have time also for whatever project is most pressing starting in Mar.
 
+## Neurochat
+
+1. Check if the windows exe built from my laptop works with some actual data.
+2. If so, rebuild to incorporate any final changes.
+
 ## Other tasks
 
 - Finish JASP review (1 week - Feb 7)
@@ -37,6 +42,7 @@ Long term changes:
 
 - Cite this <https://www.sciencedirect.com/science/article/pii/S0959438817303161?via%3Dihub#bib0545> (Steinmetz on challenges - mentions studying connected neurons) and the related.
 - This needs to be included <https://direct.mit.edu/netn/article/3/1/217/2194/High-resolution-data-driven-model-of-the-mouse> (Our model relaxes the assumption of homogeneity of connections within a region and instead assumes smoothness across major brain divisions)
+- Watch my two videos about this in Gdrive and incorporate the information from them.
 
 ## Beth LFP
 
