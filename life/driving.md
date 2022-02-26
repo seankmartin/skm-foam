@@ -57,6 +57,7 @@ If you can see, you can merely slow (yield).
 4. Press accelerator
 5. You can also brake while changing gear if going down gear
 6. When changing gear down you can do the same though, you don't need to brake
+7. Keep good control on the wheel with the right hand.
 
 ## Breaking to a stop
 
@@ -64,6 +65,9 @@ If you can see, you can merely slow (yield).
 2. When within 25 feet, press in the clutch.
 3. Then slowly press the brake to come to a stop.
 4. Can change to first gear in this process to be ready to go.
+5. Note, you don't want to stop in a high gear (or break).
+6. So you could, for example, come down into 2nd or 3rd gear, and then after that go into the stop.
+7. If need to go full stop from there, just clutch and brake as usual.
 
 ## Road positioning
 
