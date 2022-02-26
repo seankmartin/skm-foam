@@ -38,3 +38,12 @@ Bits from the discussion on the origin of LFP might be worth further discussing,
 - neuroM (blue brain)
 - Allen SDK
 - ONE (Open Neurophysiology Environment)
+
+## Possible things to include in connectivity
+
+1. Full calculations
+2. Appendix images on calculation
+3. Difference between considering full brain regions vs only considering the part in the probe.
+4. Convergence rate of stats
+5. Theoretical piece based around Anne and Konrad growth rate of neural recordings and the future.
+6. Can include information on matrix stats for comparison.
