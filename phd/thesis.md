@@ -9,6 +9,7 @@ tags: PhD
 1. Cool vis with brainrender https://www.biorxiv.org/content/10.1101/2020.02.23.961748v2.full
 2. OR a vis with Inviwo (I have one these lying around).
 3. Make a video/multiple videos on explanations. Can use e.g. https://github.com/ManimCommunity/manim.
+4. Pull in all my old notes (where relevant). Just make sure not leaving out important sources for my ideas etc. No plagiarising accidentally!
 
 ## Things to integrate
 
