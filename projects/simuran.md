@@ -68,6 +68,9 @@ Currently planning to implement in dear pygui, but check https://www.blenderfrea
 - SIMURAN takes a VERY long time to load, should consider this.
 - Intergrate the metadata set up with https://tutorials.datajoint.io/index.html.
 - Consider using https://github.com/Delgan/loguru for logging.
+- Use https://www.frontiersin.org/articles/10.3389/fninf.2011.00016/full for metadata.
+- Integrate with snakemake https://snakemake.github.io/ - see references in https://f1000research.com/articles/10-33/v2 and usage example in https://gin.g-node.org/NIN/V1_V4_1024_electrode_resting_state_data
+- https://coverage.readthedocs.io/en/6.3.2/
 
 ## Paragraph from Shane
 
