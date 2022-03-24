@@ -1,18 +1,9 @@
 # SIMURAN
 
-Many considerations listed on my Github.
-
-I have a package called SIMURAN that is designed to help simplify large analysis in Python. I will see if I can get this to a state where it would be publishable. It certainly seems useful for Axona data. The big question is can it be used for other data, such as neuropixels for example. If it can, it may well be a goer!
-
-Really I think the big push for this would be getting good use cases out there.
-
 Here is a paper on a tool - I should also definitely check this out https://www.nature.com/articles/nmeth.3041 
 
 The main aim of SIMURAN is to remove the need for people to code standard data management, file selection methods, batch coding, multiprocessing, etc. and simply focus on the analysis that they want to perform, facilitating performing large analyses on multi-region data.
-
 To use it, one provides the program with a description of their data, how to load that data if it is not an already supported format, what analysis to perform on the data, and what to save from the analysis (by default it saves everything).
-
-My original idea to do this was to extend neurochat, but neurochat is ill-suited to performing comparisons and handling data from multiple brain regions - such as comparing the LFPs from SUB and RSC.
 
 The program is heavily inspired by:
  
@@ -20,6 +11,8 @@ The program is heavily inspired by:
 2. Inviwo (https://inviwo.org/) - How to add your own custom code into a project. Inviwo's method is to provide you with a folder which you can simply drag and drop any additional analysis into, which is very convenient.
 3. Sumatra (https://neuralensemble.org/sumatra/) - Keeping track of the code used to produce analyses. Basically it stores extra information when the code is run about the system used, time that was taken, code version, etc.
 4. SpikeInterface (https://www.biorxiv.org/content/10.1101/796599v2) - The code is structured similarly to theirs, they aim to provide code that works with any spike sorting format. The idea here is to provide code that works with any electrophys format.
+5. Snakemake.
+6. MNE-python.
 
 ## Possible things to talk to
 
@@ -36,12 +29,7 @@ The program is heavily inspired by:
 4. Show plots on right click.
 5. Show tooltips of variables.
 
-Currently planning to implement in dear pygui, but check https://www.blenderfreak.com/tutorials/node-editor-tutorial-series/ if not working out.
-
-## Best GUI tool
-
-- Likely the best thing to use is to continue with pyside (maybe use 6), which is basically pyqt.
-- OR use https://github.com/hoffstadt/DearPyGui - dear py gui, which actually looks really good and might save me a lot of time. It even has in built support for nodes. Just need to make sure it works without a GPU.
+https://github.com/hoffstadt/DearPyGui - dear py gui.
 
 ## Considerations
 
@@ -51,7 +39,6 @@ Currently planning to implement in dear pygui, but check https://www.blenderfrea
 - Check how to add to colab e.g. https://colab.research.google.com/drive/1Qp7RAnPFj8zrhfEGkV7nHbzFiQ8w-4FX?usp=sharing for YASS.
 - Check out integration of things like https://github.com/KordingLab/spykes.
 - Should integrate decoding https://github.com/KordingLab/Neural_Decoding.
-- Add code coverage statistics for the test suite.
 - Delete output folder if -o passed
 - Clear STDout log on program start.
 - Save after functions to different place
@@ -71,6 +58,13 @@ Currently planning to implement in dear pygui, but check https://www.blenderfrea
 - Use https://www.frontiersin.org/articles/10.3389/fninf.2011.00016/full for metadata.
 - Integrate with snakemake https://snakemake.github.io/ - see references in https://f1000research.com/articles/10-33/v2 and usage example in https://gin.g-node.org/NIN/V1_V4_1024_electrode_resting_state_data
 - https://coverage.readthedocs.io/en/6.3.2/
+- Add more unit test cases
+- List front facing functions
+- Clean up the naming in main
+- Add copy operations to the primary classes
+- Use Python 3.10 to upgrade docstrings and use better type hinting.
+- Can I make sumatra (with my changes) a subdependency or something?? (or maybe try change the original)
+- Rebuild to CLI using Rich and typer.
 
 ## Paragraph from Shane
 
