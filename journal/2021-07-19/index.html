@@ -7,14 +7,13 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
-      
         <meta name="author" content="Sean Martin">
       
       
         <link rel="canonical" href="https://seankmartin.com/journal/2021-07-19/">
       
       <link rel="icon" href="../../attachments/foam-icon.png">
-      <meta name="generator" content="mkdocs-1.2.1, mkdocs-material-7.1.10">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.8">
     
     
       
@@ -22,27 +21,27 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.1fe995fd.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.644de097.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.f1a3b89f.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
         
       
     
     
     
       
+        
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
     
-    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
-
 
     
     
@@ -57,7 +56,6 @@
     <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
   
     
-    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -74,7 +72,10 @@
       
     </div>
     
-      <header class="md-header" data-md-component="header">
+    
+      
+
+<header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="skm-foam" class="md-header__button md-logo" aria-label="skm-foam" data-md-component="logo">
       
@@ -107,19 +108,22 @@
       <label class="md-header__button md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
       </label>
-      
-<div class="md-search" data-md-component="search" role="dialog">
+      <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
       <label class="md-search__icon md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
       </label>
-      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
-      </button>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
     </form>
     <div class="md-search__output">
       <div class="md-search__scrollwrap" data-md-scrollfix>
@@ -136,11 +140,14 @@
     
     
   </nav>
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
+        
+          
         
       
       <main class="md-main" data-md-component="main">
@@ -225,10 +232,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
-      <label class="md-nav__link" for="__nav_4">
-        Coding
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Coding
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Coding" data-md-level="1">
         <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
@@ -237,6 +248,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -247,6 +259,7 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
@@ -267,10 +280,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
       
-      <label class="md-nav__link" for="__nav_5">
-        Hobbies
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Hobbies
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Hobbies" data-md-level="1">
         <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
@@ -279,6 +296,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -289,8 +307,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -301,8 +321,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -313,8 +335,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -325,6 +349,7 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
@@ -347,10 +372,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
       
-      <label class="md-nav__link" for="__nav_6">
-        Journal
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Journal
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Journal" data-md-level="1">
         <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
@@ -359,6 +388,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -369,8 +399,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -381,8 +413,10 @@
     </li>
   
 
+            
           
             
+              
   
   
     
@@ -406,6 +440,7 @@
       </a>
       
         
+
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
@@ -454,8 +489,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -466,8 +503,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -478,8 +517,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -490,8 +531,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -502,8 +545,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -514,8 +559,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -526,8 +573,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -538,8 +587,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -550,8 +601,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -562,8 +615,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -574,8 +629,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -586,8 +643,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -598,8 +657,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -610,8 +671,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -622,8 +685,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -634,8 +699,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -646,8 +713,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -658,8 +727,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -670,8 +741,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -682,8 +755,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -694,8 +769,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -706,8 +783,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -718,8 +797,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -730,8 +811,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -742,8 +825,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -754,8 +839,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -766,8 +853,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -778,8 +867,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -790,8 +881,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -802,8 +895,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -814,8 +909,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -826,8 +923,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -838,8 +937,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -850,8 +951,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -862,8 +965,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -874,8 +979,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -886,8 +993,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -898,8 +1007,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -910,8 +1021,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -922,8 +1035,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -934,8 +1049,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -946,8 +1063,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -958,8 +1077,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -970,8 +1091,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -982,8 +1105,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -994,8 +1119,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1006,8 +1133,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1018,8 +1147,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1030,8 +1161,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1042,8 +1175,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1054,8 +1189,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1066,8 +1203,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1078,8 +1217,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1090,8 +1231,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1102,8 +1245,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1114,8 +1259,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1126,8 +1273,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1138,8 +1287,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1150,8 +1301,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1162,8 +1315,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1174,8 +1329,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1186,8 +1343,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1198,8 +1357,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1210,8 +1371,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1222,8 +1385,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1234,8 +1399,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1246,8 +1413,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1258,8 +1427,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1270,8 +1441,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1282,8 +1455,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1294,8 +1469,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1306,8 +1483,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1318,8 +1497,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1330,8 +1511,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1342,8 +1525,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1354,6 +1539,133 @@
     </li>
   
 
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2022-02-11/" class="md-nav__link">
+        Friday, February 11, 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2022-02-17/" class="md-nav__link">
+        Thursday, February 17, 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2022-02-28/" class="md-nav__link">
+        Monday, February 28, 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2022-03-02/" class="md-nav__link">
+        Wednesday, March 2, 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2022-03-03/" class="md-nav__link">
+        Thursday, March 3, 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2022-03-11/" class="md-nav__link">
+        Friday, March 11, 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2022-03-21/" class="md-nav__link">
+        Monday, March 21, 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2022-03-22/" class="md-nav__link">
+        Tuesday, March 22, 2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2022-03-24/" class="md-nav__link">
+        Thursday, March 24, 2022
+      </a>
+    </li>
+  
+
+            
           
         </ul>
       </nav>
@@ -1374,10 +1686,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
       
-      <label class="md-nav__link" for="__nav_7">
-        Life
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          Life
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Life" data-md-level="1">
         <label class="md-nav__title" for="__nav_7">
           <span class="md-nav__icon md-icon"></span>
@@ -1386,6 +1702,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -1396,8 +1713,24 @@
     </li>
   
 
+            
           
             
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../life/driving/" class="md-nav__link">
+        Driving
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
   
   
   
@@ -1408,8 +1741,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1420,8 +1755,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1432,6 +1769,7 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
@@ -1452,10 +1790,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
       
-      <label class="md-nav__link" for="__nav_8">
-        Phd
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          Phd
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Phd" data-md-level="1">
         <label class="md-nav__title" for="__nav_8">
           <span class="md-nav__icon md-icon"></span>
@@ -1464,6 +1806,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -1474,8 +1817,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1486,8 +1831,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1498,8 +1845,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1510,8 +1859,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1522,8 +1873,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1534,8 +1887,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1546,8 +1901,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1558,8 +1915,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1570,8 +1929,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1582,8 +1943,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1594,6 +1957,7 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
@@ -1614,10 +1978,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
       
-      <label class="md-nav__link" for="__nav_9">
-        Projects
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9">
+          Projects
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Projects" data-md-level="1">
         <label class="md-nav__title" for="__nav_9">
           <span class="md-nav__icon md-icon"></span>
@@ -1626,6 +1994,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -1636,8 +2005,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1648,20 +2019,10 @@
     </li>
   
 
+            
           
             
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../projects/er-cla/" class="md-nav__link">
-        ER CLA
-      </a>
-    </li>
-  
-
-          
-            
+              
   
   
   
@@ -1672,8 +2033,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1684,8 +2047,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1696,8 +2061,24 @@
     </li>
   
 
+            
           
             
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projects/review/" class="md-nav__link">
+        Literature review
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
   
   
   
@@ -1708,6 +2089,7 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
@@ -1728,10 +2110,14 @@
       
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
       
-      <label class="md-nav__link" for="__nav_10">
-        Weekly summary
-        <span class="md-nav__icon md-icon"></span>
-      </label>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10">
+          Weekly summary
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <nav class="md-nav" aria-label="Weekly summary" data-md-level="1">
         <label class="md-nav__title" for="__nav_10">
           <span class="md-nav__icon md-icon"></span>
@@ -1740,6 +2126,7 @@
         <ul class="md-nav__list" data-md-scrollfix>
           
             
+              
   
   
   
@@ -1750,8 +2137,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1762,8 +2151,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1774,8 +2165,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1786,8 +2179,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1798,8 +2193,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1810,8 +2207,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1822,8 +2221,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1834,8 +2235,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1846,8 +2249,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1858,8 +2263,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1870,8 +2277,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1882,8 +2291,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1894,8 +2305,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1906,8 +2319,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1918,8 +2333,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1930,8 +2347,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1942,8 +2361,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1954,8 +2375,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1966,8 +2389,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1978,8 +2403,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -1990,8 +2417,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -2002,8 +2431,38 @@
     </li>
   
 
+            
           
             
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../weekly_summary/2022-10/" class="md-nav__link">
+        2022 week 10
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../weekly_summary/2022-12/" class="md-nav__link">
+        2022 week 12
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
   
   
   
@@ -2014,8 +2473,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -2026,8 +2487,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -2038,8 +2501,10 @@
     </li>
   
 
+            
           
             
+              
   
   
   
@@ -2050,8 +2515,52 @@
     </li>
   
 
+            
           
             
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../weekly_summary/2022-6/" class="md-nav__link">
+        2022 week 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../weekly_summary/2022-7/" class="md-nav__link">
+        2022 week 7
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../weekly_summary/2022-9/" class="md-nav__link">
+        2022 week 9
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
   
   
   
@@ -2062,6 +2571,7 @@
     </li>
   
 
+            
           
         </ul>
       </nav>
@@ -2081,6 +2591,7 @@
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
+
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
@@ -2134,8 +2645,9 @@
             <article class="md-content__inner md-typeset">
               
                 
-                
-                <h1 id="monday-july-19-2021">Monday, July 19, 2021<a class="headerlink" href="#monday-july-19-2021" title="Permanent link">#</a></h1>
+
+
+<h1 id="monday-july-19-2021">Monday, July 19, 2021<a class="headerlink" href="#monday-july-19-2021" title="Permanent link">#</a></h1>
 <h2 id="current-doing">Current doing<a class="headerlink" href="#current-doing" title="Permanent link">#</a></h2>
 <ol>
 <li>NeuroChaT is running away, when done, save the results and then get all the graphics files.</li>
@@ -2155,11 +2667,6 @@ Now in our case, the chance performance should be 50% as is just binary.</p>
 <li><a href="https://pythonhosted.org/Sumatra/web_interface.html">https://pythonhosted.org/Sumatra/web_interface.html</a></li>
 <li><a href="https://docs.google.com/document/d/1i1-KohTi30ajuQv9YOCMisJQzzEegUtu_yLtLD6Ol8I/edit?ts=60f59b3b">https://docs.google.com/document/d/1i1-KohTi30ajuQv9YOCMisJQzzEegUtu_yLtLD6Ol8I/edit?ts=60f59b3b</a></li>
 </ul>
-                
-              
-              
-                
-
 
               
             </article>
@@ -2168,8 +2675,7 @@ Now in our case, the chance performance should be 50% as is just binary.</p>
         
       </main>
       
-        
-<footer class="md-footer">
+        <footer class="md-footer">
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
@@ -2208,14 +2714,15 @@ Now in our case, the chance performance should be 50% as is just binary.</p>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-        Made with
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-          Material for MkDocs
-        </a>
-        
-      </div>
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
       
     </div>
   </div>
@@ -2225,10 +2732,10 @@ Now in our case, the chance performance should be 50% as is just binary.</p>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.477d984a.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["tabs"], "search": "../../assets/javascripts/workers/search.5e67fbfe.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.ddd52ceb.min.js"></script>
+      <script src="../../assets/javascripts/bundle.c44cc438.min.js"></script>
       
     
   </body>
