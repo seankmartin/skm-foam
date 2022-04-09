@@ -10,7 +10,7 @@ type: note
 1. https://www.rsa.ie/road-safety/road-users/car-drivers
 2. https://www.rsa.ie/docs/default-source/services/s3.2-adi/making-your-mark-marking-guidelines-for-the-driving-test.pdf?sfvrsn=548e1e7d_7
 
-   ## Cockpit check
+## Cockpit check
 
 1. Seat adjustments
 2. Mirror adjustments (side mirrors should see just the very side of your vehicle, and the rear view should see behind you well)
@@ -32,7 +32,7 @@ GOSHO:
 1. Observe
 2. Signal
 3. Observe
-4. Move
+4. Move (Postion and speed)
 5. Look ahead
 6. Turn
 

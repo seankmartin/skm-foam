@@ -65,6 +65,7 @@ https://github.com/hoffstadt/DearPyGui - dear py gui.
 - Use Python 3.10 to upgrade docstrings and use better type hinting.
 - Can I make sumatra (with my changes) a subdependency or something?? (or maybe try change the original)
 - Rebuild to CLI using Rich and typer.
+- Favour xarray over astropy units?
 
 ## Paragraph from Shane
 

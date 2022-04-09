@@ -7,7 +7,6 @@
 - Include analysis methods in analysis methods doc.
 - One sentence summaries of my research works.
 - Snakemake, relation to my software, and the purpose of my software.
-- Review connect paper and return to Shane.
 - Check upcoming conferences of relevance.
 - Integrate old connection appendix info into thesis.
 - Read in detail a few of the review papers listed. Update my lit review in the process?
