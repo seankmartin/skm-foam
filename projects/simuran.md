@@ -34,6 +34,7 @@ https://github.com/hoffstadt/DearPyGui - dear py gui.
 ## Considerations
 
 - Implement converters
+- Support NWB and ask about here https://nwb-overview.readthedocs.io/en/latest/tools/tools_home.html.
 - This looks well written, should compare my program to it https://github.com/mouseland/cellpose.
 - Phy would be another good place to check UI on https://github.com/cortex-lab/phy.
 - Check how to add to colab e.g. https://colab.research.google.com/drive/1Qp7RAnPFj8zrhfEGkV7nHbzFiQ8w-4FX?usp=sharing for YASS.
