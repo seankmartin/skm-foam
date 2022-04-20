@@ -1,6 +1,7 @@
 # Todo
 
 - Review inbox
+- Read the brain facts book and the BNA book.
 - Print and gather info on projects and thesis.
 - Check the Abbott edited series.
 - What already exists in terms of possible ensemble detection / interaction.
