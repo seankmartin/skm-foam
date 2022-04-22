@@ -19,6 +19,7 @@ https://medium.com/the-spike/2020-a-moderately-bemused-review-of-the-year-in-neu
 Very interesting idea https://medium.com/the-spike/what-should-systems-neuroscience-do-next-voltage-imaging-9bfa5d6a4df9
 https://www.youtube.com/watch?v=1hTfx0OPrb0
 https://scholar.google.com/citations?hl=en&user=XxHqFtcAAAAJ&view_op=list_works&sortby=pubdate
+https://refactoring.guru/
 
 ## Thoughts
 
@@ -31,6 +32,9 @@ Maybe only in post
 
 As such, the option to avoid working with fMRI is to consider neurons as an ensemble.
 Perhaps information theory is the real kicker.
+
+This is really quite important for the argument about mapping between animal and human (the cell types).
+https://www.youtube.com/watch?v=ylt2ngJdegw
 
 ## Questions
 
