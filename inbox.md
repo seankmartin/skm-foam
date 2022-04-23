@@ -1,22 +1,7 @@
 # Inbox
 
-## Papers found off of PC
-
-- https://www.biorxiv.org/content/10.1101/2021.08.30.458230v1.full.pdf
-- Npixels in humans.
-- Does Nscience care about averages.
-- LFP https://www.biorxiv.org/content/10.1101/2021.05.31.446454v1 and https://www.sciencedirect.com/science/article/pii/S0896627321007108
-- Summarised here https://twitter.com/JAlGallego/status/1399676429139427333
-- https://gui.dandiarchive.org/#/dandiset/search?search=LFP and https://openneuro.org/ for LFP data etc.
-
 ## To check
 
-Check this out https://en.wikipedia.org/wiki/List_of_neuroscience_databases
-https://ebrains.eu/service/arbor/
-https://ebrains.eu/service/elephant/
-https://github.com/NeuromatchAcademy/course-content
-https://medium.com/the-spike/2020-a-moderately-bemused-review-of-the-year-in-neuroscience-99ca8744d03c
-Very interesting idea https://medium.com/the-spike/what-should-systems-neuroscience-do-next-voltage-imaging-9bfa5d6a4df9
 https://www.youtube.com/watch?v=1hTfx0OPrb0
 https://scholar.google.com/citations?hl=en&user=XxHqFtcAAAAJ&view_op=list_works&sortby=pubdate
 https://refactoring.guru/

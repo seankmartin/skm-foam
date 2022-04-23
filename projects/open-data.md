@@ -9,6 +9,10 @@ type: note
 The idea is to add value by analysing open data, this could most likely come from a combination of different data sources.
 The sources below are also in my Zotero library under OpenData
 
+Some other sets here:
+- https://gui.dandiarchive.org/#/dandiset/search?search=LFP and https://openneuro.org/ for LFP data etc.
+- https://en.wikipedia.org/wiki/List_of_neuroscience_databases
+
 ## Allen citation
 
 Dataset: Allen Institute MindScope Program (2019). Allen Brain Observatory -- Neuropixels Visual Coding [dataset]. Available from brain-map.org/explore/circuits. Primary publication: Siegle, J. H., Jia, X., Durand, S., et al. (2021). Survey of spiking in the mouse visual system reveals functional hierarchy. Nature, 592(7612), 86-92. https://doi.org/10.1038/s41586-020-03171-x
