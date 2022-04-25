@@ -48,3 +48,7 @@ Bits from the discussion on the origin of LFP might be worth further discussing,
 4. Convergence rate of stats
 5. Theoretical piece based around Anne and Konrad growth rate of neural recordings and the future.
 6. Can include information on matrix stats for comparison.
+
+## Software section
+
+Include information about tools in the software section that are openly available to use.

@@ -44,3 +44,12 @@ Complicated. Large relationship between spiking / field potential / volume condu
 * Glia: Give off calcium signals which can't be imaged (can use a calcium sensitive dye) - they are about 10 times slower than action potentials.
 * Thoughts of ephatic coupling and communication in the brain outside of action potentials.
 * Perhaps the slow movement of signals in the brain allows for an efficient form of information transfer over only having to fast data transfer (like a data centre style).
+  
+This is really quite important for the argument about mapping between animal and human (the cell types).
+https://www.youtube.com/watch?v=ylt2ngJdegw
+
+'model free' and the difference between computational neuroscience and using computers to study neuroscience.
+
+1. Can cell types be detected in CI?
+2. What is the link between CI and spikes (ephys) - there is a paper on this?
+3. What of connectomes and plasticity?
