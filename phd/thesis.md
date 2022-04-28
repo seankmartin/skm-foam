@@ -32,6 +32,7 @@ Bits from the discussion on the origin of LFP might be worth further discussing,
 - Inviwo
 - Atlas.py in my connectivity paper code
 - brainrender examples (mouse light api?) - http://ml-neuronbrowser.janelia.org/
+- https://www-nature-com.elib.tcd.ie/articles/s41593-022-01041-5
 
 ## APIs
 
