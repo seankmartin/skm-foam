@@ -26,4 +26,7 @@
   "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
   "vscodeMarkdownNotes.slugifyMethod": "github-slugger",
   "foam.files.ignore": ["docs/**/*", "foam_docs/**/*"],
-}
+  "workbench.colorCustomizations": {
+			"titleBar.activeBackground": "#24420b"
+		},
+  }
