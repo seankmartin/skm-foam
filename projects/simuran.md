@@ -67,6 +67,10 @@ https://github.com/hoffstadt/DearPyGui - dear py gui.
 - Can I make sumatra (with my changes) a subdependency or something?? (or maybe try change the original)
 - Rebuild to CLI using Rich and typer.
 - Favour xarray over astropy units?
+- Use fixtures and parameterise.mark to improve the structure of the unit tests.
+- Create a diagram (does not have to be UML) describing the layout of the Project.
+- Show where the project simply follows pandas and numpy etc. conventions to be easy to use.
+- What python versions will this support?
 
 ## Paragraph from Shane
 
