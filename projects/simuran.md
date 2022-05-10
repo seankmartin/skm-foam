@@ -71,7 +71,15 @@ https://github.com/hoffstadt/DearPyGui - dear py gui.
 - Create a diagram (does not have to be UML) describing the layout of the Project.
 - Show where the project simply follows pandas and numpy etc. conventions to be easy to use.
 - What python versions will this support?
+- Rename metadata to attrs (naming convention from other programs)
+- Consider slots with dataclasses
+- Xarray handles some things nicely which am considering e.g. attrs and support auto functions with specific naming.
 
 ## Paragraph from Shane
 
 The results will be graphically displayed, as will the processing method. A click and drag interface will allow processing flow-charts to be constructed and reconstructed while the consequent results are seamlessly displayed and updated. Multi-route and branched flow-charts will be possible, allowing for easy comparison of different processing methods and different processing parameters. Dialogue boxes will offer explanation and detailed customisation of processing units. The automation will be done within Python, which has the advantage that many of the analysis tools already have freely available Python implementations.
+
+## Handling extra requirements
+
+xarray deals with optional requirements - see their installation documentation.
+Specifically this line too "If you are using pip to install xarray, optional dependencies can be installed by specifying extras. Instructions for both pip and conda are given below."
