@@ -74,6 +74,11 @@ https://github.com/hoffstadt/DearPyGui - dear py gui.
 - Rename metadata to attrs (naming convention from other programs)
 - Consider slots with dataclasses
 - Xarray handles some things nicely which am considering e.g. attrs and support auto functions with specific naming.
+- Review the SIMURAN init function.
+- Consider adding documentation with https://myst-parser.readthedocs.io/en/latest/.
+- Make sure diagrams from https://www.google.com/search?q=pyreverse&sourceid=chrome&ie=UTF-8 match up.
+- Consider datajoint for making tables https://www.datajoint.org/.
+- Use https://github.com/kemerelab/ghostipy instead of mne paper here https://www.eneuro.org/content/8/6/ENEURO.0202-21.2021.
 
 ## Paragraph from Shane
 
@@ -83,3 +88,7 @@ The results will be graphically displayed, as will the processing method. A clic
 
 xarray deals with optional requirements - see their installation documentation.
 Specifically this line too "If you are using pip to install xarray, optional dependencies can be installed by specifying extras. Instructions for both pip and conda are given below."
+
+## Idea
+
+Simplifying creating a reproducibile and managable data analysis and processing pipeline in neuroscience.

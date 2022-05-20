@@ -11,11 +11,7 @@
 - Check upcoming conferences of relevance.
 - Integrate old connection appendix info into thesis.
 - Read in detail a few of the review papers listed. Update my lit review in the process?
-
-## Neurochat
-
-1. Check if the windows exe built from my laptop works with some actual data.
-2. If so, rebuild to incorporate any final changes.
+- Read gepetto and ghostipy.
 
 ## Beth LFP
 
