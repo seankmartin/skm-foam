@@ -79,6 +79,10 @@ https://github.com/hoffstadt/DearPyGui - dear py gui.
 - Make sure diagrams from https://www.google.com/search?q=pyreverse&sourceid=chrome&ie=UTF-8 match up.
 - Consider datajoint for making tables https://www.datajoint.org/.
 - Use https://github.com/kemerelab/ghostipy instead of mne paper here https://www.eneuro.org/content/8/6/ENEURO.0202-21.2021.
+- Rename the project, create a logo and a release.
+- Remove dependency on skm_pyutils OR configure logging in skm_pyutils instead of print.
+- Convert main to a class.
+- update lfp_atn_workflow to match these changes.
 
 ## Paragraph from Shane
 
