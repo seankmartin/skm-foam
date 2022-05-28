@@ -4,6 +4,7 @@ Here is a paper on a tool - I should also definitely check this out https://www.
 
 The main aim of SIMURAN is to remove the need for people to code standard data management, file selection methods, batch coding, multiprocessing, etc. and simply focus on the analysis that they want to perform, facilitating performing large analyses on multi-region data.
 To use it, one provides the program with a description of their data, how to load that data if it is not an already supported format, what analysis to perform on the data, and what to save from the analysis (by default it saves everything).
+This is close, but not quite accurate anymore
 
 The program is heavily inspired by:
  
