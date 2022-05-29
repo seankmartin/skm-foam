@@ -58,5 +58,7 @@ for week, v in weeks_dict.items():
                     if line.startswith("#"):
                         line = "#" + line
                     out_.write(line)
+                if line[-1] != "\n":
+                    out_.write("\n")
                 if i != (len(v) - 1):
-                    out_.write("\n\n")
+                    out_.write("\n")
