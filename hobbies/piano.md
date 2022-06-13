@@ -1,5 +1,5 @@
 ---
-tags: music, piano
+tags: music
 ---
 
 # Piano notes

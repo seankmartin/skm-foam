@@ -1,5 +1,5 @@
 ---
-tags: music, guitar
+tags: music
 ---
 
 # Guitar
@@ -17,3 +17,13 @@ As such, you can test the tuning of a guitar by holding down the fifth fret (fou
 If the notes sound similar, then it is well tuned!
 
 A capo then just lowers all the notes by X semitones.
+
+## Alterative tunings
+
+Equal temperment is a nice alternative tuning, where the strings are equal distance apart.
+For example:
+
+Eb Ab Db Gb B E
+
+But in this tuning, most open string chords can not be played, and some standard chords become a large stretch on the fingers.
+The difference in distance of the strings is what largely gives guitar its distinct sound.
