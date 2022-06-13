@@ -1,5 +1,5 @@
 ---
-tags: phd
+tags: PhD
 date: 2022--04--27
 type: note
 ---

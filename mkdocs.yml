@@ -3,7 +3,7 @@
 # mkdocs: https://www.mkdocs.org/user-guide/configuration/
 
 site_name: skm-foam
-site_url: https://seankmartin.com
+site_url: https://seankmartin.github.io/skm-foam/
 site_author: Sean Martin
 docs_dir: docs
 site_dir : site

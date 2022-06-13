@@ -1,5 +1,5 @@
 ---
-tags: phd, neuroscience
+tags: PhD, neuroscience
 date: 2022--04--12
 type: note
 ---

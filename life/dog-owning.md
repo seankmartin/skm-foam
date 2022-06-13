@@ -1,5 +1,5 @@
 ---
-tags: tips
+tags: lessons
 type: note
 ---
 

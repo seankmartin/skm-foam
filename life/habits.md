@@ -1,5 +1,5 @@
 ---
-tags: life
+tags: productivity
 date: 2021--08--10
 type: note
 ---

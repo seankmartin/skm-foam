@@ -1,5 +1,5 @@
 ---
-tags: untagged
+tags: PhD, lessons
 date: 2022--05--11
 type: note
 ---

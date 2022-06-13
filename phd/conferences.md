@@ -1,3 +1,9 @@
+---
+tags: PhD
+date: 2022--04--16
+type: note
+---
+
 ## Travel grants
 
 1. https://www.cosyne.org/travel-grants
