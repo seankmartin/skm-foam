@@ -15,12 +15,19 @@ tags: PhD
 
 1. TODO code, more specifically what? Likely some results from Ham, MPC programming etc?
 
+## Why not FMRI
+
+- Nothing wrong with it, for example see paper, the connectome predicts resting-state functional connectivity across the Drosophilia brain. This suggests that correlation in FMRI as a proxy for structural connectivity may be somewhat valid (link between functional connectivity + structural connectivity). However, they used CI to test it here.
+- However, the main reason is the lack of temporal and spatial resolution. It has been shown that (check conclusion again myself here) metabolic flux tracks behavioural changes on a slow rate, about every 10s to 100seconds. This is fine for most MRI studies as the participant is not changing behaviour regularly, however, for fast changing behavioural decisions not so much. Paper: Coupling of activity, metabolism and behaviour across the Drosophila brain
+
 ## Ideas for thesis from open data
 
 1. Explain the growth in recording fidelity (e.g. https://www.sciencedirect.com/science/article/pii/S0959438817303161?via%3Dihub - Steinmetz 2018)
 2. A table of comparison is always nice.
 3. In Siegle et al. Nature 2021, they used CA1, CA3 and DG units as controls because they have so many units. In this case, to check their visual responsivity pipeline. This is a another great use case of the larger scale data.
 4. Integrate SIMURAN with tools like AllenSDK and ONE - they are the future, and I am going to use them so it is needed.
+
+This idea of generating new discoveries from existing data is growing, for example see the allen [Neurodatarehack](https://alleninstitute.org/what-we-do/brain-science/events-training/2022-neurodatarehack-hackathon/) which includes opportunities for a year long Kavli foundation grant.
 
 ## From LFP papers
 
@@ -53,3 +60,4 @@ Bits from the discussion on the origin of LFP might be worth further discussing,
 ## Software section
 
 Include information about tools in the software section that are openly available to use.
+Franklab similar ideas [SIMURAN](https://www.youtube.com/watch?v=KAMFt8-WFKo)

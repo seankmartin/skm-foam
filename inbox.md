@@ -1,5 +1,3 @@
 # Inbox
 
-## To check
-
-https://www.youtube.com/watch?v=1hTfx0OPrb0
+* https://nousthepodcast.libsyn.com/matthew-cobb-why-neuroscience-still-cant-explain-much
