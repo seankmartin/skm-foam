@@ -35,6 +35,13 @@ See [my website](https://seankmartin.netlify.app/neuroscience/resources/) also.
 * MNE
 * NWB-viewer
 * Nwb widgets
+* spikeinterface
+* brainrender
+* CaImAN
+* [Spectral connectivity](https://github.com/Eden-Kramer-Lab/spectral_connectivity)
+* [Neural decoding](https://github.com/KordingLab/Neural_Decoding)
+* neuralflow
+* LFADS
 
 ## General python tools
 

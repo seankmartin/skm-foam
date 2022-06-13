@@ -84,6 +84,10 @@ https://github.com/hoffstadt/DearPyGui - dear py gui.
 - Remove dependency on skm_pyutils OR configure logging in skm_pyutils instead of print.
 - Convert main to a class.
 - update lfp_atn_workflow to match these changes.
+- load_config SIMURAN alias.
+- Fix issue with simuran import from a github pip installation.
+- Integrate a snakemake wrapper into SIMURAN.
+- Create interface for analysis.
 
 ## Paragraph from Shane
 
