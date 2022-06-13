@@ -20,6 +20,7 @@
   "foam.edit.linkReferenceDefinitions": "withoutExtensions",
   "foam.openDailyNote.directory": "journal",
   "foam.openDailyNote.titleFormat": "fullDate",
+  "foam.openDailyNote.onStartup": true,
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
   "markdown.preview.breaks": true,
@@ -29,7 +30,8 @@
   "spellright.notificationClass": "warning",
   "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
   "vscodeMarkdownNotes.slugifyMethod": "github-slugger",
-  "foam.files.ignore": ["docs/**/*", "foam_docs/**/*"],
+  "foam.files.ignore": ["docs/**/*", "foam_docs/**/*", "journal/**/*"],
+  "foam.orphans.exclude": ["journal/**/*"],
   "workbench.colorCustomizations": {
 			"titleBar.activeBackground": "#24420b"
 		},
