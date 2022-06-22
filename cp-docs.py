@@ -11,6 +11,7 @@ def main():
         "site",
         "docs",
         "foam_docs",
+        "local_only",
     ]
     f_exts = [".md", ".png", ".jpg"]
 
