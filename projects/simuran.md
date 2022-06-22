@@ -15,6 +15,17 @@ The program is heavily inspired by:
 5. Snakemake.
 6. MNE-python.
 
+## User stories
+
+1. As a non-programmer, I want to open the UI and create a network using drop in boxes to analyse files.
+2. As a non-programmer, I want to be able to view parameters and results from within the UI.
+3. As a programmer, I want assistance to create tables and parameter files in the correct format for the program.
+4. As a programmer, I want to take advantage of program structure to speed up my development.
+
+## Diagram of architecture
+
+![SIMURAN diagram](../attachments/Simuran_layout.svg)
+
 ## Possible things to talk to
 
 1. NeuroChaT
