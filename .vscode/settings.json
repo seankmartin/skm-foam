@@ -30,7 +30,7 @@
   "spellright.notificationClass": "warning",
   "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
   "vscodeMarkdownNotes.slugifyMethod": "github-slugger",
-  "foam.files.ignore": ["docs/**/*", "foam_docs/**/*", "journal/**/*"],
+  "foam.files.ignore": ["docs/**/*", "foam_docs/**/*"],
   "foam.orphans.exclude": ["journal/**/*", "weekly_summary/**/*"],
   "workbench.colorCustomizations": {
 			"titleBar.activeBackground": "#24420b"

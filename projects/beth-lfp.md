@@ -11,16 +11,22 @@ tags: PhD LFP
 - Combine Matheus code with mine and think about how to share data.
 - Consider the animal notes and adding more animals
 - Compare histology to animal notes
-- Why is there zero power in some signals (see process_lfp.log)
+- Why is there zero power in some signals (see process_lfp.log) - is the normalising?
+
+## Consideration for NWB
+
+- Perhaps consider a separate conversion and picking process for the muscimol data? It can obviously use a lot from the original conversion, but I don't think I can do a direct conversion.
 
 ## Snakemake conversion checklist
 
-- [ ] Speed theta check plot
-- [ ] Speed IBI
-- [ ] LFP plot (normalised LFP)
+- [x] Speed theta check plot
+- [x] Speed IBI (not doing this for now)
+- [x] LFP plot (normalised LFP)
 - [ ] Spike LFP (openfield and muscimol)
+- [ ] T maze coherence
 - [ ] Hypothesis tests.
 - [ ] Fix snakemake tests.
+- [x] Fix conversion of NWB data without units for many cases.
 
 ## Animal notes
 
