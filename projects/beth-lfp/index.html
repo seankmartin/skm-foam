@@ -1622,6 +1622,54 @@
   
 
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../journal/2022-06-14/" class="md-nav__link">
+        Tuesday, June, 2022
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../journal/2022-06-15/" class="md-nav__link">
+        Wednesday, June, 2022
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../journal/2022-06-16/" class="md-nav__link">
+        Thursday, June, 2022
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../journal/2022-06-22/" class="md-nav__link">
+        Wednesday, June, 2022
+      </a>
+    </li>
+  
+
+          
         </ul>
       </nav>
     </li>
@@ -2000,6 +2048,13 @@
         <li class="md-nav__item">
   <a href="#todo" class="md-nav__link">
     TODO
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consideration-for-nwb" class="md-nav__link">
+    Consideration for NWB
   </a>
   
 </li>
@@ -2654,6 +2709,18 @@
   
   
     <li class="md-nav__item">
+      <a href="../../weekly_summary/2022-25/" class="md-nav__link">
+        2022 week 25
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../weekly_summary/2022-3/" class="md-nav__link">
         2022 week 3
       </a>
@@ -2767,6 +2834,13 @@
         <li class="md-nav__item">
   <a href="#todo" class="md-nav__link">
     TODO
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consideration-for-nwb" class="md-nav__link">
+    Consideration for NWB
   </a>
   
 </li>
@@ -2894,16 +2968,22 @@
 <li>Combine Matheus code with mine and think about how to share data.</li>
 <li>Consider the animal notes and adding more animals</li>
 <li>Compare histology to animal notes</li>
-<li>Why is there zero power in some signals (see process_lfp.log)</li>
+<li>Why is there zero power in some signals (see process_lfp.log) - is the normalising?</li>
+</ul>
+<h2 id="consideration-for-nwb">Consideration for NWB<a class="headerlink" href="#consideration-for-nwb" title="Permanent link">#</a></h2>
+<ul>
+<li>Perhaps consider a separate conversion and picking process for the muscimol data? It can obviously use a lot from the original conversion, but I don't think I can do a direct conversion.</li>
 </ul>
 <h2 id="snakemake-conversion-checklist">Snakemake conversion checklist<a class="headerlink" href="#snakemake-conversion-checklist" title="Permanent link">#</a></h2>
 <ul class="task-list">
-<li class="task-list-item"><input type="checkbox" disabled/> Speed theta check plot</li>
-<li class="task-list-item"><input type="checkbox" disabled/> Speed IBI</li>
-<li class="task-list-item"><input type="checkbox" disabled/> LFP plot (normalised LFP)</li>
+<li class="task-list-item"><input type="checkbox" disabled checked/> Speed theta check plot</li>
+<li class="task-list-item"><input type="checkbox" disabled checked/> Speed IBI (not doing this for now)</li>
+<li class="task-list-item"><input type="checkbox" disabled checked/> LFP plot (normalised LFP)</li>
 <li class="task-list-item"><input type="checkbox" disabled/> Spike LFP (openfield and muscimol)</li>
+<li class="task-list-item"><input type="checkbox" disabled/> T maze coherence</li>
 <li class="task-list-item"><input type="checkbox" disabled/> Hypothesis tests.</li>
 <li class="task-list-item"><input type="checkbox" disabled/> Fix snakemake tests.</li>
+<li class="task-list-item"><input type="checkbox" disabled checked/> Fix conversion of NWB data without units for many cases.</li>
 </ul>
 <h2 id="animal-notes">Animal notes<a class="headerlink" href="#animal-notes" title="Permanent link">#</a></h2>
 <p>NOTE very different recording layouts within animals are causing problems. Have asked Matheus, but really I need to ask Beth about this TBH</p>
