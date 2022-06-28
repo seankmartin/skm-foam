@@ -96,25 +96,32 @@ A minor is seen very commonly as the 2 in a 2 5 1.
 ### All modes with steps
 
 C Ionian (major) — CDEFGABC
-(intervals: Whole - Whole - Half - Whole - Whole - Whole - Half)
+(intervals: Note - Whole - Whole - Half - Whole - Whole - Whole - Half)
+Feel: Very bright, the fourth sounds bad.
 
-D Dorian — DEFGABCD
-(intervals: Whole - Half - Whole - Whole - Whole - Half - Whole)
+D Dorian — DEFGABCD - Flat 3 and Flat 7
+(intervals: Note - Whole - Half - Whole - Whole - Whole - Half - Whole)
+Feel: Melancholy yet optimistic, jazz and blues.
 
-E Phrygian — EFGABCDE
-(intervals: Half - Whole - Whole - Whole - Half - Whole - Whole)
+E Phrygian — EFGABCDE - Flat 2 Flat 3 Flat 6 Flat 7
+(intervals: Note - Half - Whole - Whole - Whole - Half - Whole - Whole)
+Feel: Dark
 
-F Lydian — FGABCDEF
-(intervals: Whole - Whole - Whole - Half - Whole - Whole - Half)
+F Lydian — FGABCDEF - Sharp 4
+(intervals: Note - Whole - Whole - Whole - Half - Whole - Whole - Half)
+Feel: Floaty, Wonder, grandiosity - widely used. The first can sound bad.
 
-G Mixolydian — GABCDEFG
-(intervals: Whole - Whole - Half - Whole - Whole - Half - Whole)
+G Mixolydian — GABCDEFG - Flat 7
+(intervals: Note - Whole - Whole - Half - Whole - Whole - Half - Whole)
+Feel: Jazz, funk, blues; major with an edge.
 
-A Aeolian (minor) — ABCDEFGA
-(intervals: Whole - Half - Whole - Whole - Half - Whole - Whole)
+A Aeolian (minor) — ABCDEFGA - Flat 3 Flat 6 Flat 7
+(intervals: Note - Whole - Half - Whole - Whole - Half - Whole - Whole)
+Feel: (minor of course, as it is the natural minor scale). Downtempo balads and sadness.
 
-B Locrian — BCDEFGAB
-(intervals: Half - Whole - Whole - Half - Whole - Whole - Whole)
+B Locrian — BCDEFGAB - Flat 2 Flat 3 Flat 5 Flat 6 Flat 7
+(intervals: Note - Half - Whole - Whole - Half - Whole - Whole - Whole)
+Feel: Unsettling and spooky, not that often used.
 
 ## Common chord progressions
 
