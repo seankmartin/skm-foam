@@ -11,6 +11,9 @@
 - Integrate old connection appendix info into thesis.
 - Read in detail a few of the review papers listed. Update my lit review in the process?
 - Read gepetto and ghostipy.
+- Upload OSF data.
+- Clean up burst analysis and put in thesis.
+- Finish snakemake conversion.
 
 ## Website
 
