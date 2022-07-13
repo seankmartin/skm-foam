@@ -22,7 +22,7 @@ tags: PhD LFP
 - [x] Speed theta check plot
 - [x] Speed IBI (not doing this for now)
 - [x] LFP plot (normalised LFP)
-- [ ] Spike LFP (openfield and muscimol)
+- [x] Spike LFP (openfield and muscimol)
 - [ ] T maze coherence
 - [ ] Hypothesis tests.
 - [ ] Fix snakemake tests.
