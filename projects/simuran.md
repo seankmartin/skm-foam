@@ -1,5 +1,8 @@
 # SIMURAN
 
+NB - there is an existing workflow management system for neuroimaging here https://nipype.readthedocs.io/en/latest/examples.html - can compare to this.
+This is quite interesting, called GUIX - on scientific data journal.
+
 Here is a paper on a tool - I should also definitely check this out https://www.nature.com/articles/nmeth.3041 
 
 The main aim of SIMURAN is to remove the need for people to code standard data management, file selection methods, batch coding, multiprocessing, etc. and simply focus on the analysis that they want to perform, facilitating performing large analyses on multi-region data.
