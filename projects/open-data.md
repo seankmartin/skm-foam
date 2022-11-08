@@ -7,11 +7,16 @@ type: note
 # Open Data
 
 The idea is to add value by analysing open data, this could most likely come from a combination of different data sources.
-The sources below are also in my Zotero library under OpenData
+The sources below are also in my Zotero library under OpenData.
 
 Some other sets here:
 - https://gui.dandiarchive.org/#/dandiset/search?search=LFP and https://openneuro.org/ for LFP data etc.
 - https://en.wikipedia.org/wiki/List_of_neuroscience_databases
+
+## Allen 2022 visual behaviour npixels
+
+[Whitepaper](https://brainmapportal-live-4cc80a57cd6e400d854-f7fdcae.divio-media.net/filer_public/f7/06/f706855a-a3a1-4a3a-a6b0-3502ad64680f/visualbehaviorneuropixels_technicalwhitepaper.pdf) and [data](https://allensdk.readthedocs.io/en/latest/visual_behavior_neuropixels.html)
+Realistically this is the closes matching other dataset from [IBL](https://dandiarchive.org/dandiset/000045).
 
 ## Allen citation
 
