@@ -13,6 +13,14 @@ Some other sets here:
 - https://gui.dandiarchive.org/#/dandiset/search?search=LFP and https://openneuro.org/ for LFP data etc.
 - https://en.wikipedia.org/wiki/List_of_neuroscience_databases
 
+## IBL dataset
+
+https://int-brain-lab.github.io/iblenv/notebooks_external/data_release_brainwidemap.html
+https://viz.internationalbrainlab.org/
+https://figshare.com/articles/preprint/Data_release_-_Brainwide_map_-_Q4_2022/21400815
+
+Should consider the above in more detail.
+
 ## Allen 2022 visual behaviour npixels
 
 [Whitepaper](https://brainmapportal-live-4cc80a57cd6e400d854-f7fdcae.divio-media.net/filer_public/f7/06/f706855a-a3a1-4a3a-a6b0-3502ad64680f/visualbehaviorneuropixels_technicalwhitepaper.pdf) and [data](https://allensdk.readthedocs.io/en/latest/visual_behavior_neuropixels.html)
