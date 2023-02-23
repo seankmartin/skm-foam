@@ -23,3 +23,7 @@
 
 - Properly read the neuroscientist microprocessor paper.
 - Read and make final decision on the stats papers (e.g. Semedo).
+
+## Thesis
+
+This is primarily stored in Trello.

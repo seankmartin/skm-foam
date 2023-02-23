@@ -7,3 +7,12 @@
 Oh, there is actually a talk on today about replay during rule switching (https://pubmed.ncbi.nlm.nih.gov/32032512/)
 
 BIG NB, I was running out of memory in LaTeX. This fixed it, but I am not sure if I will need to run this everytime (https://florian-rappl.de/Articles/Page/239/latex-memory)
+
+https://www.biorxiv.org/content/10.1101/2021.09.28.460602v1
+
+
+There is a very interesting paper around the link between the BOLD signal and metabolic decoupling. In other words, the brain takes in a bunch of glucose, but actually uses less oxygen than it possibly could. This leads to the belief that perhaps some axons work at another level of glucose/oxygen. This kind of thing is sometimes seen in muscles whereby they have not got the time to take in the oxygen quickly if they are being actively used. Talk was by Jordan Theriault.
+
+I also saw a [biorxiv paper](https://www.biorxiv.org/content/10.1101/2023.02.08.527772v1.full.pdf) that discusses again the idea of neural populations communicating between brain regions along neural subspaces. I have a feeling that this idea might be adjacant to the information representation/correlation idea, so I need to look into that.
+
+Finally, Shane sent on an elife paper about the ability of a single spike to reproduce a circuit level response in the turtle cortex, will need to look into this.
