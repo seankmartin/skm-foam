@@ -18,6 +18,10 @@ In Semedo et al. 2022, the use the CCA and PCFA algorithms. The PCFA is jitter c
 
 In Okazawa et al. 2021 they used PCA to visual the neural population response manifolds. For them, they applied this to the PSTHs.
 
+## Some details
+
+It seems window sizes are generally small (maybe a few 100ms), and the binsize ranges from 1 - 25ms. However, this is often chosen based on how narrow of an interaction we are looking. E.g. if using very small bins 1ms - 20ms, the CCA will often only pick up one dimension of activity. Also note pCCA, which also gives probabilities.
+
 ## References
 
 1. Yu, Byron M., et al. "Gaussian-process factor analysis for low-dimensional single-trial analysis of neural population activity." Advances in neural information processing systems 21 (2008).
