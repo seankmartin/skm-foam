@@ -9,6 +9,32 @@ type: note
 ## Resources
 
 - [Videos about the viva](https://port.sas.ac.uk/mod/page/view.php?id=1927)
+- [PhD Viva guide](https://www.universityofgalway.ie/media/graduatestudies/files/phdvivaguide/phd_viva_guide.pdf)
+
+## Questions from TCD
+
+- What is your thesis about?
+- Explain in your own words what you have done in your thesis.
+- What is the contribution of your thesis to scholarly knowledge in your field?
+- Summarise the main findings of your thesis.
+- Why did you choose this topic?
+- Why have you chosen to organise your thesis in this way?
+- Why is the problem you have tackled worth tackling?
+- Is it possible to generalise your findings or are they specific to the particular case you have studied?
+- How have you evaluated your work?
+- How do you know that your results are correct?
+- How do your results compare with the work of others in the field?
+- What have you done to be awarded the degree of PhD?
+- What is original about your thesis?
+
+## Questions from TCD that are method specific
+
+- Why did you choose this method to anlayse your data?
+- Describe your methodological approach.
+- Would your approach be as effective for other periods or places?
+- What you learned by carrying out your research?
+- What would you do differently if you were to do it again?
+- What are the alternatives to your approach?
 
 ## Key questions
 
