@@ -27,7 +27,7 @@ The program is heavily inspired by:
 
 ## Diagram of architecture
 
-![SIMURAN diagram](../attachments/simuran_diagram.png)
+![SIMURAN diagram](../../attachments/simuran_diagram.png)
 
 ## Possible things to talk to
 
