@@ -11,6 +11,18 @@ type: note
 - [Videos about the viva](https://port.sas.ac.uk/mod/page/view.php?id=1927)
 - [PhD Viva guide](https://www.universityofgalway.ie/media/graduatestudies/files/phdvivaguide/phd_viva_guide.pdf)
 
+## Common opening questions
+
+- Please explain how you came upon this research topic and why you chose to work on it.
+- Please explain what you have achieved in this thesis.
+
+## Tips
+
+- Read through your thesis thoroughly about a week before the viva and think through it actively.
+- Even though the examiners will carefully read your thesis, it is unlikely that they know more about it than you.
+- It can be a good idea to brush up on the examiners research close to the event to re-familiarise yourself with their work and where they might be coming from with their questions.
+- Before the event (and into the future), come up with a way to describe your thesis in less than 5 sentences.
+
 ## Questions from TCD
 
 - What is your thesis about?
