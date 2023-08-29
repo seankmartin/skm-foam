@@ -20,7 +20,6 @@ start chrome http://127.0.0.1:8000/
 OR
 
 ```Bash
-python merge-journal.py
 python cp-docs.py
 mkdocs build
 mkdocs gh-deploy
