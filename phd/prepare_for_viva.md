@@ -6,10 +6,23 @@ type: note
 
 # Prepare for viva
 
+## Suggested steps
+
+1. Review the university policy and viva procedure.
+2. Review your own thesis, with familiarity of your main sources, explain and defend your methods, and be able to explain your results. Additionally, be able to explain the limitations of your thesis and implications of your work.
+3. If in person, try to visit the room where the viva will take place to familiarise yourself with the space.
+4. Review the work of your examiners. Particularly the most recent work of your external examiner - this is likely to be the most relevant to your thesis, and they are generally the expert in your field.
+
+## Question answering strategies
+
 ## Resources
 
 - [Videos about the viva](https://port.sas.ac.uk/mod/page/view.php?id=1927)
 - [PhD Viva guide](https://www.universityofgalway.ie/media/graduatestudies/files/phdvivaguide/phd_viva_guide.pdf)
+
+## To investigate
+
+- The possibility of a mock viva.
 
 ## Common opening questions
 
