@@ -21,12 +21,9 @@ jobs:
       - name: Build docs
         run: |
           python cp-docs.py
-          mkdocs build
-      - name: Setup git
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email 'github-actions[bot]@users.noreply.github.com'
-      - name: Deploy
-        run: |
-          mkdocs gh-deploy
+      - name: Deploy docs
+        uses: mhausenblas/mkdocs-deploy-gh-pages@e55ecab6718b449a90ebd4313f1320f9327f1386
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CONFIG_FILE: mkdocs.yml
       
