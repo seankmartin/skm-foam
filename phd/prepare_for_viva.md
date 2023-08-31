@@ -12,8 +12,29 @@ type: note
 2. Review your own thesis, with familiarity of your main sources, explain and defend your methods, and be able to explain your results. Additionally, be able to explain the limitations of your thesis and implications of your work.
 3. If in person, try to visit the room where the viva will take place to familiarise yourself with the space.
 4. Review the work of your examiners. Particularly the most recent work of your external examiner - this is likely to be the most relevant to your thesis, and they are generally the expert in your field.
+5. Start answering questions about your thesis. You can do this by yourself, with your supervisor, or with your peers. Be sure to do it aloud.
+
+## Some tips
+
+1. It is good that the examiners have questions -- you might learn something from it!
+2. Some of these might actually help with preparing a paper for publication.
+3. The chair is there to make sure that the viva is fair and that the examiners are following the procedure. They might also set some ground rules for the viva. If you ask the chair in advance of the viva, they might be able to tell you what these are -- or you can at least request that they set some ground rules.
+4. Have a think about which journals you might want to publish in, and why. This might be a question that comes up.
+5. Think of which questions you would ask if you were the examiner. This might help you to prepare for the viva. You can also ask your supervisor to do this.
+6. If you are asked a question that you don't know the answer to, it is okay to say that you don't know. You can also ask for clarification if you don't understand the question.
+7. You can try to use your opening presentation to steer the viva in a direction that you are comfortable with. For instance, you could use it to highlight some strengths or weaknesses of your thesis, or pose some questions that you would like to discuss.
+8. Try to anticipate the known knowns and known unknowns.
+9. The questions you are asked may lead into minor or major corrections to your thesis. This is normal.
+10. You can ask for a break if you need one.
+11. Ideally the conversation should go a bit like a game of tennis, with a bit of back and forth.
+12. Generally, if there is likely to be a big problem with your thesis based on the external examiner's report, you will be told in advance.
+13. Usually you go through the thesis chapter by chapter, but this is not always the case.
 
 ## Question answering strategies
+
+1. Answer questions clearly, precisely, and concisely. Then stop talking. In other words, answer the question first, and then elaborate if required.
+2. You don't need to answer questions immediately. It is acceptable to take a moment to think about your answer.
+3. Be wary of using buzz words or jargon. If you do, be sure to explain what you mean.
 
 ## Resources
 
