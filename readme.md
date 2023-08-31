@@ -1,6 +1,6 @@
 # SKM Foam
 
-My knowledge base in foam.
+My knowledge base in foam. See the built website at https://seankmartin.github.io/skm-foam/.
 
 ## Build a local website version
 
