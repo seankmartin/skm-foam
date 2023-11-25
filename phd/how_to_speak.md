@@ -16,7 +16,7 @@ Start
 3. Cycle – make your idea repeated many times in order to be completely clear for everyone.
 4. Make a “Fence” around your idea so that it can be distinguished from someone else’s idea.
 5. Verbal punctuation – sum up information within your talk some times to make listeners get back on.
-6.  Ask a question - intriguing one
+6. Ask a question - intriguing one
 
 Place and Time
 

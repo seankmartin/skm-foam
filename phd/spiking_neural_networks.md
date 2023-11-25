@@ -11,6 +11,8 @@ See youtube tutorial by Dan goodman [here](https://www.youtube.com/watch?v=GTXTQ
 Part one shows how to use Brian to model a simple thing where a group of neurons in the ear generate spikes, and then you code how those are linked to a second set of neurons which decode information from those spikes.
 
 There are also these Type 1 or 2 neurons that I have not come across before [here](https://neuronaldynamics.epfl.ch/online/Ch4.S4.html)
+Type 1 neurons have a continuous frequency of spikes, whereas type 2 neurons have a discontinuous frequency of spikes.
+In other works, if you inject a current into a type 1 neuron, it will fire in a continuous way, whereas a type 2 neuron will fire in a discontinuous way - often when it meets a threshold.
 
 ## The basics
 
