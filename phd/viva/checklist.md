@@ -11,11 +11,11 @@ type: note
 - [ ] Out loud, practice answering questions about my thesis. In addition, general questions.
 - [ ] Prepare a list of questions that you might be asked.
 - [ ] Prepare a list of questions that you might ask.
-- [ ] Get three copies of your thesis bound.
+- [x] Get three copies of your thesis bound.
 - [ ] Prepare a list of corrections that you think might be required.
 - [ ] Record my opening presentation and watch it back and also get feedback from others.
 - [ ] Read my two examiners' most recent papers.
-- [ ] Organise a mock viva.
+- [x] Organise a mock viva.
 - [ ] Get my outfit ready.
 - [ ] To what journals might I submit my work, and why?
 - [ ] Get some specific examples of fMRI studies that compare data across brain regions.
