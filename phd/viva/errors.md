@@ -12,3 +12,4 @@ type: note
 * In the signed version, the date bled into another page of the thesis.
 * Typo on page 95. subicular the LFP.
 * Typo on page 124, and they process inputs.
+* Page 101 describes a different method to what Figure 5.6 is showing (TODO check which is correct).

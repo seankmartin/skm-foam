@@ -22,3 +22,9 @@ type: note
 - [ ] Reread some key papers, like Jaoa Semedo's paper.
 - [ ] Download all my papers and Zotero to Jen's laptop.
 - [ ] Take the abstract for each part of my abstract, and also make an informal abstract fot the two chapters that don't have abstracts.
+- [ ] Practice presenting from Jen's laptop hooked up to a monitor.
+- [ ] Try to use my phone as a slides remote.
+- [ ] Start to take notes on all the pieces on paper so that I can bring them in.
+- [ ] Have any relevant links ready to go.
+- [ ] Ensure I can use Zenodo on my laptop.
+- [ ] Practice answering a question where I didn't fully consider what they were asking yet - in other words, they brought up a point that I hadn't considered.
