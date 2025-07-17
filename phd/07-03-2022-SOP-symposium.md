@@ -1,4 +1,4 @@
-# Notes from 2023 symposium on TCD school of psychology
+# Notes from 2023 symposium on [INSTITUTION] school of psychology
 
 ## Rhodri Cusack - Exploring the foundations of cognition in infants with FMRI and deep learning
 
@@ -39,7 +39,7 @@
 
 - Looking into processing speed.
 - They use the digital questionnaire response time to measure processing speed, and they found that it was a good measure of processing speed (neureka).
-- Rhodri: Would companies use (misuse) this measure on questionaires to try and measure the "intelligence" of their workers or applicatants?
+- [QUESTION]: Would companies use (misuse) this measure on questionaires to try and measure the "intelligence" of their workers or applicatants?
 
 ## Graham King - "100 Babies: Lessons from Awake Infant fMRI at 2 months"
 
@@ -93,19 +93,19 @@
 
 ## Shane O'Mara - "Do psychologists dream of electric chatbots? The brave new world of competence without comprehension"
 
-- Shane thinks that the peer-reviewed research is moving much more slowly than the field is going, so twitter and the likes can actual be a good way to get the latest research.
+- [SPEAKER] thinks that the peer-reviewed research is moving more slowly than the field is going, so twitter and the likes can actual be a good way to get the latest research.
 - Ethics - biased AI and biased data lead to IRL bias.
 - There is thoughts about the federal trade commission looking into this.
 - Idea of the systems being stochastic parrots (they can repeat what they have heard, but they don't really understand it, and do so with some randomness).
 - Perhaps there will be a decrease in the hype around AI, and a move towards more realistic expectations, and then after that there might be a resurgence in the usage of AI.
 - Only two centres in the world are currently capable of running chatGPT.
-- An AI bot trained as a guard couldn't detect snake style video game cardboard box sneaking (TODO for me, need to look into this one).
+- An AI bot trained as a guard couldn't detect snake style video game cardboard box sneaking.
 - Med chat GPT is coming in as well apparently. Also is using chat GPT to correct your language cheating?
 - Github co-pilot has just released some data on an A/B tests, and it reduces time to reduce the task by about 50%.
 - Blade runner and do androids dream of electric sheep.
 - Starry AI generates anime style images.
 - Bing actually provides some references for what it is talking about.
-- Diederik Stapel perfomed huge research fraud.
+- Diederik Stapel perfomed research fraud.
 - Are we reaching the limits of the big applications we can currently use AI for? What might change?
 - These tools will enchance productivity and to initiate, for example, happy to use excelformulabot to create your formulae and avoid having to work with deep excel knowledge.
 - ChatGPT, DeepL, google translate give us great tools to work cross country.
@@ -121,7 +121,7 @@
 
 ## Questions
 
-- Question? How many people are MRI haters (Rhodri joke).
+- Question? How many people are MRI haters ([SPEAKER] joke).
 - How do you measure how much information a baby sees in say 2 years?
 - Is there any difficulty in autistic people interacting with a digital platform? 
 
@@ -131,11 +131,11 @@
 
 ## IDEA
 
-- Rhodri, at the moment the companies are taking very simple architectures of models and training them on REALLY large datasets. So they don't really think they need to be convinced by how neuroscience works, because at the moment they seem quite happy with what they are doing -- so maybe in a few years time then maybe we will be in position to influence them.
+- [SPEAKER 1], at the moment the companies are taking very simple architectures of models and training them on REALLY large datasets. So they don't really think they need to be convinced by how neuroscience works, because at the moment they seem quite happy with what they are doing -- so maybe in a few years time then maybe we will be in position to influence them.
 - Can look into NITESGON and see if there is anything interesting there.
-- Rhodri's comment kind of lines up with this, biology is messy, but the tech sector does not care about this - which leaves an interesting space!
+- [SPEAKER 1]'s comment kind of lines up with this, biology is messy, but the tech sector does not care about this - which leaves an interesting space!
 
 ## Unrelated ideas
 
-- For my thesis, would it be faster to work on just the open data and try do a really good job there, or to do a split and work a bit on that and a bit on Ham's data?
+- For my thesis, would it be faster to work on just the open data and try do a really good job there, or to do a split and work a bit on that and a bit on [COLLABORATOR]'s data?
 - Any poster thoughts and questions will be in my notebook.

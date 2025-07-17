@@ -15,16 +15,16 @@ There is a very interesting paper around the link between the BOLD signal and me
 
 I also saw a [biorxiv paper](https://www.biorxiv.org/content/10.1101/2023.02.08.527772v1.full.pdf) that discusses again the idea of neural populations communicating between brain regions along neural subspaces. I have a feeling that this idea might be adjacant to the information representation/correlation idea, so I need to look into that.
 
-Finally, Shane sent on an elife paper about the ability of a single spike to reproduce a circuit level response in the turtle cortex, will need to look into this.
+Finally, [SUPERVISOR] sent on an elife paper about the ability of a single spike to reproduce a circuit level response in the turtle cortex, will need to look into this.
 
-Possibility to turn the connectivity paper into a combined literature review and paper. Shane mentioned.
+Possibility to turn the connectivity paper into a combined literature review and paper. [SUPERVISOR] mentioned.
 Or go to frontiers in comp neuro (not very selective), PLOS similar.
 Maybe Wellcome open research and then we get post publication peer review. Maybe respond to the old one with just a commment about the updated NeuroChaT.
 
 
 Publications:
 - Maybe just waiting.
-- Data in brief by Elsevier (possibility for Ham's data, or a backup for Beth's data).
+- Data in brief by Elsevier (possibility for [COLLABORATOR]'s data, or a backup for [COLLABORATOR 2]'s data).
 - Data journals is the keyword
 - Possibility for PLOS one
 - MDPI is a possibility
