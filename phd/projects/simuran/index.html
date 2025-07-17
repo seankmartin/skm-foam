@@ -1,0 +1,1314 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Sean Martin">
+      
+      
+        <link rel="canonical" href="https://seankmartin.github.io/skm-foam/phd/projects/simuran/">
+      
+      
+        <link rel="prev" href="../review/">
+      
+      
+        <link rel="next" href="../thesis/">
+      
+      <link rel="icon" href="../../../attachments/foam-icon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.6">
+    
+    
+      
+        <title>SIMURAN - skm-foam</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.558e4712.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.2505c338.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#simuran" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="skm-foam" class="md-header__button md-logo" aria-label="skm-foam" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            skm-foam
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              SIMURAN
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="skm-foam" class="md-nav__button md-logo" aria-label="skm-foam" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    skm-foam
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        SKM Foam
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" tabindex="0" aria-expanded="false">
+          Hobbies
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Hobbies" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Hobbies
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../hobbies/guitar/" class="md-nav__link">
+        Guitar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../hobbies/knife-sharpening/" class="md-nav__link">
+        Knife sharpening
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../hobbies/piano-improv/" class="md-nav__link">
+        Piano Improvisation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../hobbies/piano/" class="md-nav__link">
+        Piano notes
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" tabindex="0" aria-expanded="false">
+          Life
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Life" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Life
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../life/dog-owning/" class="md-nav__link">
+        Dog Owning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../life/driving/" class="md-nav__link">
+        Driving
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../life/driving_theory_ireland/" class="md-nav__link">
+        Driving theory (Ireland)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../life/habits/" class="md-nav__link">
+        Atomic habits
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../life/life/" class="md-nav__link">
+        Life
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_3_6" type="checkbox" id="__nav_3_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_6" tabindex="0" aria-expanded="false">
+          Years
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Years" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_6">
+          <span class="md-nav__icon md-icon"></span>
+          Years
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../life/years/2020/" class="md-nav__link">
+        2020 - a year in review
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../life/years/2022/" class="md-nav__link">
+        2022 - a year in review
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" tabindex="0" aria-expanded="true">
+          Phd
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Phd" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Phd
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07-03-2022-SOP-symposium/" class="md-nav__link">
+        Notes from 2023 symposium on [INSTITUTION] school of psychology
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../book_reviews/" class="md-nav__link">
+        Book reviews
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../conferences/" class="md-nav__link">
+        Conferences
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../craft_of_writing/" class="md-nav__link">
+        Craft of Writing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../how_to_speak/" class="md-nav__link">
+        How to speak
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ideas_notebook/" class="md-nav__link">
+        Ideas notebook
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../inbox/" class="md-nav__link">
+        Inbox
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lorraine-hope-talk/" class="md-nav__link">
+        Lorraine hope on memory and investigation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../neural_dimension_reduction/" class="md-nav__link">
+        Neural Dimension Reduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../neuroscience/" class="md-nav__link">
+        Neuroscience
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../neuroscience_resources/" class="md-nav__link">
+        Neuroscience resources
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../paper_thoughts/" class="md-nav__link">
+        Paper thoughts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../spiking_neural_networks/" class="md-nav__link">
+        Spiking neural networks
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../things_I_had_to_look_up/" class="md-nav__link">
+        Things I had to look up
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_4_15" type="checkbox" id="__nav_4_15" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_15" tabindex="0" aria-expanded="false">
+          Meetings
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Meetings" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_15">
+          <span class="md-nav__icon md-icon"></span>
+          Meetings
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meetings/allen_nwb_28092022/" class="md-nav__link">
+        An open webinar by Allen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meetings/comp_neuro/" class="md-nav__link">
+        Computational Neuroscience
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../meetings/neural_ensembles_2022/" class="md-nav__link">
+        Neural Ensembles 2022
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_4_16" type="checkbox" id="__nav_4_16" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_16" tabindex="0" aria-expanded="true">
+          Projects
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Projects" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_16">
+          <span class="md-nav__icon md-icon"></span>
+          Projects
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../analysis/" class="md-nav__link">
+        Neural data analysis
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../open-data/" class="md-nav__link">
+        Open Data
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../projects/" class="md-nav__link">
+        PhD Projects
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../review/" class="md-nav__link">
+        Literature review
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          SIMURAN
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        SIMURAN
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#user-stories" class="md-nav__link">
+    User stories
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagram-of-architecture" class="md-nav__link">
+    Diagram of architecture
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#possible-things-to-talk-to" class="md-nav__link">
+    Possible things to talk to
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gui-requirements" class="md-nav__link">
+    GUI requirements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#considerations" class="md-nav__link">
+    Considerations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paragraph" class="md-nav__link">
+    Paragraph
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#handling-extra-requirements" class="md-nav__link">
+    Handling extra requirements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#idea" class="md-nav__link">
+    Idea
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../thesis/" class="md-nav__link">
+        Thesis
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_4_17" type="checkbox" id="__nav_4_17" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_17" tabindex="0" aria-expanded="false">
+          Viva
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Viva" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_17">
+          <span class="md-nav__icon md-icon"></span>
+          Viva
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../viva/abstracts/" class="md-nav__link">
+        Abstracts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../viva/notes/" class="md-nav__link">
+        Notes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../viva/prepare_for_viva/" class="md-nav__link">
+        Prepare for viva
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../viva/thesis_summary/" class="md-nav__link">
+        Thesis summary
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#user-stories" class="md-nav__link">
+    User stories
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagram-of-architecture" class="md-nav__link">
+    Diagram of architecture
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#possible-things-to-talk-to" class="md-nav__link">
+    Possible things to talk to
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gui-requirements" class="md-nav__link">
+    GUI requirements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#considerations" class="md-nav__link">
+    Considerations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paragraph" class="md-nav__link">
+    Paragraph
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#handling-extra-requirements" class="md-nav__link">
+    Handling extra requirements
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#idea" class="md-nav__link">
+    Idea
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="simuran">SIMURAN<a class="headerlink" href="#simuran" title="Permanent link">#</a></h1>
+<p>NB - there is an existing workflow management system for neuroimaging here <a href="https://nipype.readthedocs.io/en/latest/examples.html">https://nipype.readthedocs.io/en/latest/examples.html</a> - can compare to this.<br />
+This is quite interesting, called GUIX - on scientific data journal.</p>
+<p>Here is a paper on a tool - I should also definitely check this out <a href="https://www.nature.com/articles/nmeth.3041">https://www.nature.com/articles/nmeth.3041</a> </p>
+<p>The main aim of SIMURAN is to remove the need for people to code standard data management, file selection methods, batch coding, multiprocessing, etc. and simply focus on the analysis that they want to perform, facilitating performing large analyses on multi-region data.<br />
+To use it, one provides the program with a description of their data, how to load that data if it is not an already supported format, what analysis to perform on the data, and what to save from the analysis (by default it saves everything).<br />
+This is close, but not quite accurate anymore</p>
+<p>The program is heavily inspired by:</p>
+<ol>
+<li>NeuroChaT - Considering cells, lfps, spatial data, etc. as singular objects and coding the relationship between them to perform analyses.</li>
+<li>Inviwo (<a href="https://inviwo.org/">https://inviwo.org/</a>) - How to add your own custom code into a project. Inviwo's method is to provide you with a folder which you can simply drag and drop any additional analysis into, which is very convenient.</li>
+<li>Sumatra (<a href="https://neuralensemble.org/sumatra/">https://neuralensemble.org/sumatra/</a>) - Keeping track of the code used to produce analyses. Basically it stores extra information when the code is run about the system used, time that was taken, code version, etc.</li>
+<li>SpikeInterface (<a href="https://www.biorxiv.org/content/10.1101/796599v2">https://www.biorxiv.org/content/10.1101/796599v2</a>) - The code is structured similarly to theirs, they aim to provide code that works with any spike sorting format. The idea here is to provide code that works with any electrophys format.</li>
+<li>Snakemake.</li>
+<li>MNE-python.</li>
+</ol>
+<h2 id="user-stories">User stories<a class="headerlink" href="#user-stories" title="Permanent link">#</a></h2>
+<ol>
+<li>As a non-programmer, I want to open the UI and create a network using drop in boxes to analyse files.</li>
+<li>As a non-programmer, I want to be able to view parameters and results from within the UI.</li>
+<li>As a programmer, I want assistance to create tables and parameter files in the correct format for the program.</li>
+<li>As a programmer, I want to take advantage of program structure to speed up my development.</li>
+</ol>
+<h2 id="diagram-of-architecture">Diagram of architecture<a class="headerlink" href="#diagram-of-architecture" title="Permanent link">#</a></h2>
+<p><img alt="SIMURAN diagram" src="../../../attachments/simuran_diagram.png" /></p>
+<h2 id="possible-things-to-talk-to">Possible things to talk to<a class="headerlink" href="#possible-things-to-talk-to" title="Permanent link">#</a></h2>
+<ol>
+<li>NeuroChaT</li>
+<li>MNE</li>
+<li>Elephant</li>
+<li>NWB NC?</li>
+</ol>
+<h2 id="gui-requirements">GUI requirements<a class="headerlink" href="#gui-requirements" title="Permanent link">#</a></h2>
+<ol>
+<li>Dynamically adding nodes either via another window or a popup menu.</li>
+<li>Support custom nodes.</li>
+<li>Set parameters on nodes and use these for computation.</li>
+<li>Show plots on right click.</li>
+<li>Show tooltips of variables.</li>
+</ol>
+<p><a href="https://github.com/hoffstadt/DearPyGui">https://github.com/hoffstadt/DearPyGui</a> - dear py gui.</p>
+<h2 id="considerations">Considerations<a class="headerlink" href="#considerations" title="Permanent link">#</a></h2>
+<ul>
+<li>Implement converters</li>
+<li>Support NWB and ask about here <a href="https://nwb-overview.readthedocs.io/en/latest/tools/tools_home.html">https://nwb-overview.readthedocs.io/en/latest/tools/tools_home.html</a>.</li>
+<li>This looks well written, should compare my program to it <a href="https://github.com/mouseland/cellpose">https://github.com/mouseland/cellpose</a>.</li>
+<li>Phy would be another good place to check UI on <a href="https://github.com/cortex-lab/phy">https://github.com/cortex-lab/phy</a>.</li>
+<li>Check how to add to colab e.g. <a href="https://colab.research.google.com/drive/1Qp7RAnPFj8zrhfEGkV7nHbzFiQ8w-4FX?usp=sharing">https://colab.research.google.com/drive/1Qp7RAnPFj8zrhfEGkV7nHbzFiQ8w-4FX?usp=sharing</a> for YASS.</li>
+<li>Check out integration of things like <a href="https://github.com/KordingLab/spykes">https://github.com/KordingLab/spykes</a>.</li>
+<li>Should integrate decoding <a href="https://github.com/KordingLab/Neural_Decoding">https://github.com/KordingLab/Neural_Decoding</a>.</li>
+<li>Delete output folder if -o passed</li>
+<li>Clear STDout log on program start.</li>
+<li>Save after functions to different place</li>
+<li>New mode where parameters are not written! A read only mode.</li>
+<li>Improve SIMURAN help.</li>
+<li>Support tdqm progress bar or none.</li>
+<li>Restructure the project to adhere to new PEP guidelines, especially with typing. Related to this, check how to handle default values in classes instead of just using None, so as to adhere to typing (e.g. empty containers instead of None).</li>
+<li>This would be very helpful to integrate into the code <a href="https://mypy.readthedocs.io/en/stable/introduction.html">https://mypy.readthedocs.io/en/stable/introduction.html</a></li>
+<li>When complete this work, try run with num_workers 4 and see if all results are same and evaluate time benefits.</li>
+<li>Really consider getting the code to work well within colab, or at least with data from the cloud.</li>
+<li>Clearer caching of results.</li>
+<li>Need to convert SIMURAN logging to rich <a href="https://github.com/willmcgugan/rich">https://github.com/willmcgugan/rich</a>.</li>
+<li>Covert CLI to <a href="https://typer.tiangolo.com/">https://typer.tiangolo.com/</a>.</li>
+<li>SIMURAN takes a VERY long time to load, should consider this.</li>
+<li>Intergrate the metadata set up with <a href="https://tutorials.datajoint.io/index.html">https://tutorials.datajoint.io/index.html</a>.</li>
+<li>Consider using <a href="https://github.com/Delgan/loguru">https://github.com/Delgan/loguru</a> for logging.</li>
+<li>Use <a href="https://www.frontiersin.org/articles/10.3389/fninf.2011.00016/full">https://www.frontiersin.org/articles/10.3389/fninf.2011.00016/full</a> for metadata.</li>
+<li>Integrate with snakemake <a href="https://snakemake.github.io/">https://snakemake.github.io/</a> - see references in <a href="https://f1000research.com/articles/10-33/v2">https://f1000research.com/articles/10-33/v2</a> and usage example in <a href="https://gin.g-node.org/NIN/V1_V4_1024_electrode_resting_state_data">https://gin.g-node.org/NIN/V1_V4_1024_electrode_resting_state_data</a></li>
+<li><a href="https://coverage.readthedocs.io/en/6.3.2/">https://coverage.readthedocs.io/en/6.3.2/</a></li>
+<li>Add more unit test cases</li>
+<li>List front facing functions</li>
+<li>Clean up the naming in main</li>
+<li>Add copy operations to the primary classes</li>
+<li>Use Python 3.10 to upgrade docstrings and use better type hinting.</li>
+<li>Can I make sumatra (with my changes) a subdependency or something?? (or maybe try change the original)</li>
+<li>Rebuild to CLI using Rich and typer.</li>
+<li>Favour xarray over astropy units?</li>
+<li>Use fixtures and parameterise.mark to improve the structure of the unit tests.</li>
+<li>Create a diagram (does not have to be UML) describing the layout of the Project.</li>
+<li>Show where the project simply follows pandas and numpy etc. conventions to be easy to use.</li>
+<li>What python versions will this support?</li>
+<li>Rename metadata to attrs (naming convention from other programs)</li>
+<li>Consider slots with dataclasses</li>
+<li>Xarray handles some things nicely which am considering e.g. attrs and support auto functions with specific naming.</li>
+<li>Review the SIMURAN init function.</li>
+<li>Consider adding documentation with <a href="https://myst-parser.readthedocs.io/en/latest/">https://myst-parser.readthedocs.io/en/latest/</a>.</li>
+<li>Make sure diagrams from <a href="https://www.google.com/search?q=pyreverse&amp;sourceid=chrome&amp;ie=UTF-8">https://www.google.com/search?q=pyreverse&amp;sourceid=chrome&amp;ie=UTF-8</a> match up.</li>
+<li>Consider datajoint for making tables <a href="https://www.datajoint.org/">https://www.datajoint.org/</a>.</li>
+<li>Use <a href="https://github.com/kemerelab/ghostipy">https://github.com/kemerelab/ghostipy</a> instead of mne paper here <a href="https://www.eneuro.org/content/8/6/ENEURO.0202-21.2021">https://www.eneuro.org/content/8/6/ENEURO.0202-21.2021</a>.</li>
+<li>Rename the project, create a logo and a release.</li>
+<li>Remove dependency on skm_pyutils OR configure logging in skm_pyutils instead of print.</li>
+<li>Convert main to a class.</li>
+<li>update lfp_atn_workflow to match these changes.</li>
+<li>load_config SIMURAN alias.</li>
+<li>Fix issue with simuran import from a github pip installation.</li>
+<li>Integrate a snakemake wrapper into SIMURAN.</li>
+<li>Create interface for analysis.</li>
+</ul>
+<h2 id="paragraph">Paragraph<a class="headerlink" href="#paragraph" title="Permanent link">#</a></h2>
+<p>The results will be graphically displayed, as will the processing method. A click and drag interface will allow processing flow-charts to be constructed and reconstructed while the consequent results are seamlessly displayed and updated. Multi-route and branched flow-charts will be possible, allowing for easy comparison of different processing methods and different processing parameters. Dialogue boxes will offer explanation and detailed customisation of processing units. The automation will be done within Python, which has the advantage that many of the analysis tools already have freely available Python implementations.</p>
+<h2 id="handling-extra-requirements">Handling extra requirements<a class="headerlink" href="#handling-extra-requirements" title="Permanent link">#</a></h2>
+<p>xarray deals with optional requirements - see their installation documentation.<br />
+Specifically this line too "If you are using pip to install xarray, optional dependencies can be installed by specifying extras. Instructions for both pip and conda are given below."</p>
+<h2 id="idea">Idea<a class="headerlink" href="#idea" title="Permanent link">#</a></h2>
+<p>Simplifying creating a reproducibile and managable data analysis and processing pipeline in neuroscience.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["tabs"], "search": "../../../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.51d95adb.min.js"></script>
+      
+    
+  </body>
+</html>

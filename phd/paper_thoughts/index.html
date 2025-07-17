@@ -1,0 +1,1300 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Sean Martin">
+      
+      
+        <link rel="canonical" href="https://seankmartin.github.io/skm-foam/phd/paper_thoughts/">
+      
+      
+        <link rel="prev" href="../neuroscience_resources/">
+      
+      
+        <link rel="next" href="../spiking_neural_networks/">
+      
+      <link rel="icon" href="../../attachments/foam-icon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.6">
+    
+    
+      
+        <title>Paper thoughts - skm-foam</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.558e4712.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.2505c338.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#paper-thoughts" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="skm-foam" class="md-header__button md-logo" aria-label="skm-foam" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            skm-foam
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Paper thoughts
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="skm-foam" class="md-nav__button md-logo" aria-label="skm-foam" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    skm-foam
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        SKM Foam
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2" tabindex="0" aria-expanded="false">
+          Hobbies
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Hobbies" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Hobbies
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hobbies/guitar/" class="md-nav__link">
+        Guitar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hobbies/knife-sharpening/" class="md-nav__link">
+        Knife sharpening
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hobbies/piano-improv/" class="md-nav__link">
+        Piano Improvisation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../hobbies/piano/" class="md-nav__link">
+        Piano notes
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" tabindex="0" aria-expanded="false">
+          Life
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Life" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Life
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../life/dog-owning/" class="md-nav__link">
+        Dog Owning
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../life/driving/" class="md-nav__link">
+        Driving
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../life/driving_theory_ireland/" class="md-nav__link">
+        Driving theory (Ireland)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../life/habits/" class="md-nav__link">
+        Atomic habits
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../life/life/" class="md-nav__link">
+        Life
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_3_6" type="checkbox" id="__nav_3_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_6" tabindex="0" aria-expanded="false">
+          Years
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Years" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_6">
+          <span class="md-nav__icon md-icon"></span>
+          Years
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../life/years/2020/" class="md-nav__link">
+        2020 - a year in review
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../life/years/2022/" class="md-nav__link">
+        2022 - a year in review
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" tabindex="0" aria-expanded="true">
+          Phd
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Phd" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Phd
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07-03-2022-SOP-symposium/" class="md-nav__link">
+        Notes from 2023 symposium on [INSTITUTION] school of psychology
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../book_reviews/" class="md-nav__link">
+        Book reviews
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../conferences/" class="md-nav__link">
+        Conferences
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../craft_of_writing/" class="md-nav__link">
+        Craft of Writing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../how_to_speak/" class="md-nav__link">
+        How to speak
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ideas_notebook/" class="md-nav__link">
+        Ideas notebook
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../inbox/" class="md-nav__link">
+        Inbox
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lorraine-hope-talk/" class="md-nav__link">
+        Lorraine hope on memory and investigation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../neural_dimension_reduction/" class="md-nav__link">
+        Neural Dimension Reduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../neuroscience/" class="md-nav__link">
+        Neuroscience
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../neuroscience_resources/" class="md-nav__link">
+        Neuroscience resources
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Paper thoughts
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Paper thoughts
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#spontaneous-behaviours-drive-multidimensional-brainwise-activity" class="md-nav__link">
+    Spontaneous behaviours drive multidimensional brainwise activity
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#towards-the-neural-population-doctrine" class="md-nav__link">
+    Towards the neural population doctrine
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#information-limiting-correlations" class="md-nav__link">
+    Information-limiting correlations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#large-scale-neural-recordings-with-single-neuron-resolution-using-neuropixels-probes-in-human-cortex" class="md-nav__link">
+    Large-scale neural recordings with single neuron resolution using Neuropixels probes in human cortex
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-mechanism-for-inter-areal-coherence-through-communication-based-on-connectivity-and-oscillatory-power" class="md-nav__link">
+    A mechanism for inter-areal coherence through communication based on connectivity and oscillatory power
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#does-the-brain-care-about-average-a-simple-test" class="md-nav__link">
+    Does the brain care about average? A simple test
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#local-field-potentials-reflect-cortical-population-dynamics-in-a-region-specific-and-frequency-dependent-manner" class="md-nav__link">
+    Local field potentials reflect cortical population dynamics in a region-specific and frequency-dependent manner
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#disentangling-the-flow-of-signals-between-populations-of-neurons" class="md-nav__link">
+    Disentangling the flow of signals between populations of neurons
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../spiking_neural_networks/" class="md-nav__link">
+        Spiking neural networks
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../things_I_had_to_look_up/" class="md-nav__link">
+        Things I had to look up
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_4_15" type="checkbox" id="__nav_4_15" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_15" tabindex="0" aria-expanded="false">
+          Meetings
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Meetings" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_15">
+          <span class="md-nav__icon md-icon"></span>
+          Meetings
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../meetings/allen_nwb_28092022/" class="md-nav__link">
+        An open webinar by Allen
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../meetings/comp_neuro/" class="md-nav__link">
+        Computational Neuroscience
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../meetings/neural_ensembles_2022/" class="md-nav__link">
+        Neural Ensembles 2022
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_4_16" type="checkbox" id="__nav_4_16" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_16" tabindex="0" aria-expanded="false">
+          Projects
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Projects" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_16">
+          <span class="md-nav__icon md-icon"></span>
+          Projects
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../projects/analysis/" class="md-nav__link">
+        Neural data analysis
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../projects/open-data/" class="md-nav__link">
+        Open Data
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../projects/projects/" class="md-nav__link">
+        PhD Projects
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../projects/review/" class="md-nav__link">
+        Literature review
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../projects/simuran/" class="md-nav__link">
+        SIMURAN
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../projects/thesis/" class="md-nav__link">
+        Thesis
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_4_17" type="checkbox" id="__nav_4_17" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_17" tabindex="0" aria-expanded="false">
+          Viva
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Viva" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_17">
+          <span class="md-nav__icon md-icon"></span>
+          Viva
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../viva/abstracts/" class="md-nav__link">
+        Abstracts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../viva/notes/" class="md-nav__link">
+        Notes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../viva/prepare_for_viva/" class="md-nav__link">
+        Prepare for viva
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../viva/thesis_summary/" class="md-nav__link">
+        Thesis summary
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#spontaneous-behaviours-drive-multidimensional-brainwise-activity" class="md-nav__link">
+    Spontaneous behaviours drive multidimensional brainwise activity
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#towards-the-neural-population-doctrine" class="md-nav__link">
+    Towards the neural population doctrine
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#information-limiting-correlations" class="md-nav__link">
+    Information-limiting correlations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#large-scale-neural-recordings-with-single-neuron-resolution-using-neuropixels-probes-in-human-cortex" class="md-nav__link">
+    Large-scale neural recordings with single neuron resolution using Neuropixels probes in human cortex
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-mechanism-for-inter-areal-coherence-through-communication-based-on-connectivity-and-oscillatory-power" class="md-nav__link">
+    A mechanism for inter-areal coherence through communication based on connectivity and oscillatory power
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#does-the-brain-care-about-average-a-simple-test" class="md-nav__link">
+    Does the brain care about average? A simple test
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#local-field-potentials-reflect-cortical-population-dynamics-in-a-region-specific-and-frequency-dependent-manner" class="md-nav__link">
+    Local field potentials reflect cortical population dynamics in a region-specific and frequency-dependent manner
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#disentangling-the-flow-of-signals-between-populations-of-neurons" class="md-nav__link">
+    Disentangling the flow of signals between populations of neurons
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="paper-thoughts">Paper thoughts<a class="headerlink" href="#paper-thoughts" title="Permanent link">#</a></h1>
+<p>I have read many more papers than this, but I did not keep the notes as cleanly.<br />
+If I see some of those that are important (they are in other computer docs, physical notebooks etc.) I will try to place here.</p>
+<ol>
+<li><a href="https://www.mdpi.com/1422-0067/24/9/8229">https://www.mdpi.com/1422-0067/24/9/8229</a> - import bit is that it compares neurons using granger causlity in V1 by using the heirarchy between simple and complex cells.</li>
+<li><a href="https://arxiv.org/ftp/arxiv/papers/2305/2305.06160.pdf">https://arxiv.org/ftp/arxiv/papers/2305/2305.06160.pdf</a> - TODO this is very important to my connectivity paper.</li>
+</ol>
+<h2 id="spontaneous-behaviours-drive-multidimensional-brainwise-activity">Spontaneous behaviours drive multidimensional brainwise activity<a class="headerlink" href="#spontaneous-behaviours-drive-multidimensional-brainwise-activity" title="Permanent link">#</a></h2>
+<p>authors: Stringer &amp; Pachitariu et al.<br />
+keywords: Population, data, behaviour, mouse, CI, neuropixels<br />
+status: Read in some detail<br />
+importance: High<br />
+url: <a href="https://dx.doi.org/10.1126%2Fscience.aav7893">https://dx.doi.org/10.1126%2Fscience.aav7893</a></p>
+<p>Very interesting article. Lots of analysis performed on thousands on cells, see <a href="../projects/open-data/">open-data</a> for description of data.<br />
+Some new-ish to me methods employed also. E.g. Peer prediction and SVCA.<br />
+Interesting hypothesis also that there exists a multidimensional representation of behaviour in visual cortex and that previously reported "noise" during stimulus presentations may in face be behaviourally driven.</p>
+<h2 id="towards-the-neural-population-doctrine">Towards the neural population doctrine<a class="headerlink" href="#towards-the-neural-population-doctrine" title="Permanent link">#</a></h2>
+<p>authors: Saxena and Cunningham<br />
+keywords: Population-level neuroscience, review<br />
+status: Read in detail<br />
+importance: Very high<br />
+url: <a href="https://doi.org/10.1016/j.conb.2019.02.002">https://doi.org/10.1016/j.conb.2019.02.002</a></p>
+<p>Focuses on the results from population-level neuroscience, as opposed to the methodoligical details.<br />
+In this sense it is very important, as insights can be gained into where population-level science is advancing the field over more traditional levels of investigation.<br />
+Spefifically:</p>
+<ul>
+<li>Trial-to-trial variability in populations of neurons is a key indicator for behavioural states. This is probably the most interesting one to me.</li>
+<li>Decoding accuracy is more than the sum of its parts. I would have been surprised if this was not the case. Nonetheless 'mixed selectivity' would pretty much guarantee this. Some good theory available to generate null models of predictive ability for X dimensional neural data, e.g. Cunningham's previous work in around 2016/17.</li>
+<li>Analysis of neural activity over time reveals computational strategies. This one is the LFADS style state space representation of neural activity in a flow field. It is cool, and seems that activity over time in neural populations is seperable based on the task at hand.</li>
+<li>Nodes in ANNs emulate activity in CERTAIN regions of the brain. This is key, I don't think ANNs will work all over the brain, and I'm not even convinvced they will work when multiple regions are invovled. However, they do work in areas like VC, MC, and the retinal ganglion cells. However, there is a study using a CNN to model responses between inferior temporal cortex (IT) and V4 <a href="https://www.pnas.org/content/111/23/8619">Performance-optimized hierarchical models predict neural responses in higher visual cortex</a> which was goal-directed not data-directed (but the data ended up being similar to the net).</li>
+<li>Finally, the perils of high-dimensional data and shedding light on the deabte about thwether theses analysses are actually producing novel findings about the brain, or if they are recepitulating old knowledge <a href="https://www.nature.com/articles/nn.4627">Is population activity more than the sum of its parts? | Nature Neuroscience</a>.</li>
+</ul>
+<h2 id="information-limiting-correlations">Information-limiting correlations<a class="headerlink" href="#information-limiting-correlations" title="Permanent link">#</a></h2>
+<p>authors: Moreno-Bote et al.<br />
+keywords: Correlation, information<br />
+status: Skimmed<br />
+importance: Medium-high<br />
+url: <a href="https://doi.org/10.1038/nn.3807">https://doi.org/10.1038/nn.3807</a></p>
+<p>This article focuses on the so called "noise-correlations" (which I don't really like) - the correlations among neurons at a fixed stimulus. This is hardly noise though. However, the name mostly comes from the other correlation being labelled as signal correlation. The correlations among neurons with varying stimulus.<br />
+There is a reference at the end about signal correlations, which I feel there must be something more up to date than 2000s early.</p>
+<p>One crucial thing the article suggests is that direct decoding is better than trying to estimate information when a population of neurons is available which were recorded simultaneously.<br />
+E.g. "These results have an important implication: the effect of attention<br />
+or perceptual learning on information in a particular area cannot be<br />
+assessed by simply measuring pairwise correlations. Thus, the fact<br />
+that pairwise correlations decrease when attention is engaged, which<br />
+has been observed in several studies 10,11 , cannot be taken as evidence<br />
+that information must have gone up, nor as a mechanism that can<br />
+explain any improved performance. The only way to determine the<br />
+true effect of correlations in these kinds of studies is to record from<br />
+large populations of neurons in parallel and decode the neural activity<br />
+with and without attention, or before and after perceptual learning."</p>
+<h2 id="large-scale-neural-recordings-with-single-neuron-resolution-using-neuropixels-probes-in-human-cortex">Large-scale neural recordings with single neuron resolution using Neuropixels probes in human cortex<a class="headerlink" href="#large-scale-neural-recordings-with-single-neuron-resolution-using-neuropixels-probes-in-human-cortex" title="Permanent link">#</a></h2>
+<p>authors: Paulk et al.<br />
+keywords: Neuropixels, recordings<br />
+status: Skimmed<br />
+importance: High<br />
+url: <a href="https://doi.org/10.1038/s41593-021-00997-0">https://doi.org/10.1038/s41593-021-00997-0</a></p>
+<p>Some key quotes "Overall, human electrophysiology technical capabilities have<br />
+substantially lagged what is possible in animals." (usually well below 150 units).<br />
+In this, they aimed at temporal lobe. (n = 3) with two in anasthesia, one awake. (n = 6 failed recordings).<br />
+Subjects don't seem to be recorded in tasks (understandably)</p>
+<h2 id="a-mechanism-for-inter-areal-coherence-through-communication-based-on-connectivity-and-oscillatory-power">A mechanism for inter-areal coherence through communication based on connectivity and oscillatory power<a class="headerlink" href="#a-mechanism-for-inter-areal-coherence-through-communication-based-on-connectivity-and-oscillatory-power" title="Permanent link">#</a></h2>
+<p>authors: Schneider et al.<br />
+keywords: LFP, coherence<br />
+status: Skimmed<br />
+importance: Medium<br />
+url: <a href="https://doi.org/10.1016/j.neuron.2021.09.037">https://doi.org/10.1016/j.neuron.2021.09.037</a></p>
+<p>Can be used to explaing coherence results as it relies on Connectivity and power.<br />
+Main takeaway, coherence alone not enough for communication.</p>
+<h2 id="does-the-brain-care-about-average-a-simple-test">Does the brain care about average? A simple test<a class="headerlink" href="#does-the-brain-care-about-average-a-simple-test" title="Permanent link">#</a></h2>
+<p>authors: Tlaie et al.<br />
+keywords: Analysis<br />
+status: Not read<br />
+importance: High<br />
+url: <a href="https://doi.org/10.1101/2021.11.28.469673">https://doi.org/10.1101/2021.11.28.469673</a></p>
+<p>Should likely try to perform the same tests.</p>
+<h2 id="local-field-potentials-reflect-cortical-population-dynamics-in-a-region-specific-and-frequency-dependent-manner">Local field potentials reflect cortical population dynamics in a region-specific and frequency-dependent manner<a class="headerlink" href="#local-field-potentials-reflect-cortical-population-dynamics-in-a-region-specific-and-frequency-dependent-manner" title="Permanent link">#</a></h2>
+<p>authors: Gallego-Carracedo et al.<br />
+keywords: Analysis, LFP<br />
+status: Skimmed<br />
+importance: High<br />
+url: <a href="https://doi.org/10.1101/2021.11.28.469673">https://doi.org/10.1101/2021.11.28.469673</a></p>
+<p>Very interesting, relationship between latent dynamics and LFP (since both are similar).<br />
+Actually some very cool stuff. Correlation depends a lot on frequency and no reliable relationship in "no acitvity" but during a task they were similar.<br />
+Very cool.</p>
+<h2 id="disentangling-the-flow-of-signals-between-populations-of-neurons">Disentangling the flow of signals between populations of neurons<a class="headerlink" href="#disentangling-the-flow-of-signals-between-populations-of-neurons" title="Permanent link">#</a></h2>
+<p>authors: Gokcen et al.<br />
+keywords: Analysis, flow<br />
+status: Skimmed<br />
+importance: High<br />
+url: <a href="https://doi.org/10.1101/2021.08.30.458230">https://doi.org/10.1101/2021.08.30.458230</a></p>
+<p>Proposes delayed latents across groups to disentangle the direction of the latent interactions.<br />
+Similar to my interest in information flow and task performance.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["tabs"], "search": "../../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.51d95adb.min.js"></script>
+      
+    
+  </body>
+</html>
