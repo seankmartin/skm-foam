@@ -103,7 +103,7 @@ https://github.com/hoffstadt/DearPyGui - dear py gui.
 - Integrate a snakemake wrapper into SIMURAN.
 - Create interface for analysis.
 
-## Paragraph from Shane
+## Paragraph
 
 The results will be graphically displayed, as will the processing method. A click and drag interface will allow processing flow-charts to be constructed and reconstructed while the consequent results are seamlessly displayed and updated. Multi-route and branched flow-charts will be possible, allowing for easy comparison of different processing methods and different processing parameters. Dialogue boxes will offer explanation and detailed customisation of processing units. The automation will be done within Python, which has the advantage that many of the analysis tools already have freely available Python implementations.
 

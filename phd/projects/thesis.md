@@ -11,10 +11,6 @@ tags: PhD
 3. Make a video/multiple videos on explanations. Can use e.g. https://github.com/ManimCommunity/manim.
 4. Pull in all my old notes (where relevant). Just make sure not leaving out important sources for my ideas etc. No plagiarising accidentally!
 
-## Things to integrate
-
-1. TODO code, more specifically what? Likely some results from Ham, MPC programming etc?
-
 ## Why not FMRI as the focus
 
 - Nothing wrong with it, for example see paper, the connectome predicts resting-state functional connectivity across the Drosophilia brain. This suggests that correlation in FMRI as a proxy for structural connectivity may be somewhat valid (link between functional connectivity + structural connectivity). However, they used CI to test it here.
