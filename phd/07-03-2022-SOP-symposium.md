@@ -138,4 +138,10 @@
 ## Unrelated ideas
 
 - For my thesis, would it be faster to work on just the open data and try do a really good job there, or to do a split and work a bit on that and a bit on [COLLABORATOR]'s data?
-- Any poster thoughts and questions will be in my notebook.
+
+## Travel grants
+
+1. https://www.cosyne.org/travel-grants
+2. https://forum.fens.org/fens-ibro-perc/
+3. https://forum.fens.org/partner-society-grants/
+4. https://conference.neuromatch.io/

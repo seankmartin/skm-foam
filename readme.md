@@ -6,7 +6,6 @@ My knowledge base in foam. See the built website at https://seankmartin.github.i
 
 ```Bash
 pip install -r requirements.txt
-python merge-journal.py
 python cp-docs.py
 mkdocs serve
 ```

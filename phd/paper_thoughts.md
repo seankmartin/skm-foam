@@ -9,6 +9,9 @@ type: note
 I have read many more papers than this, but I did not keep the notes as cleanly.
 If I see some of those that are important (they are in other computer docs, physical notebooks etc.) I will try to place here.
 
+1. https://www.mdpi.com/1422-0067/24/9/8229 - import bit is that it compares neurons using granger causlity in V1 by using the heirarchy between simple and complex cells.
+2. https://arxiv.org/ftp/arxiv/papers/2305/2305.06160.pdf - TODO this is very important to my connectivity paper.
+
 ## Spontaneous behaviours drive multidimensional brainwise activity
 
 authors: Stringer & Pachitariu et al.

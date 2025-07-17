@@ -39,8 +39,6 @@ def main():
             if ok_file(start_root, filename):
                 onlyfiles.append(filename)
 
-    from pprint import pprint
-
     if os.path.isdir(os.path.join(in_dir, "docs")):
         shutil.rmtree(os.path.join(in_dir, "docs"))
     for fname in onlyfiles:
