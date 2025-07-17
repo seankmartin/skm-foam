@@ -23,7 +23,6 @@ Maybe Wellcome open research and then we get post publication peer review. Maybe
 
 
 Publications:
-- Maybe just waiting.
 - Data in brief by Elsevier (possibility for [COLLABORATOR]'s data, or a backup for [COLLABORATOR 2]'s data).
 - Data journals is the keyword
 - Possibility for PLOS one

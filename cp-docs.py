@@ -13,12 +13,17 @@ def main():
         "foam_docs",
         "local_only",
     ]
+    files_to_ignore = [
+        "readme.md",
+    ]
     f_exts = [".md", ".png", ".jpg"]
 
     def ok_file(root_dir, filename):
         has_ext = os.path.splitext(filename)[-1] in f_exts
         is_file = os.path.isfile(os.path.join(root_dir, filename))
         use = filename.split(os.sep)[0] not in dirs_to_ignore
+        file_end = filename.split(os.sep)[-1]
+        use = use and file_end not in files_to_ignore
         return has_ext and is_file and use
 
     in_dir = os.path.dirname(os.path.abspath(__file__))
