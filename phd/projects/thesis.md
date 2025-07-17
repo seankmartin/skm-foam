@@ -15,7 +15,7 @@ tags: PhD
 
 1. TODO code, more specifically what? Likely some results from Ham, MPC programming etc?
 
-## Why not FMRI
+## Why not FMRI as the focus
 
 - Nothing wrong with it, for example see paper, the connectome predicts resting-state functional connectivity across the Drosophilia brain. This suggests that correlation in FMRI as a proxy for structural connectivity may be somewhat valid (link between functional connectivity + structural connectivity). However, they used CI to test it here.
 - However, the main reason is the lack of temporal and spatial resolution. It has been shown that (check conclusion again myself here) metabolic flux tracks behavioural changes on a slow rate, about every 10s to 100seconds. This is fine for most MRI studies as the participant is not changing behaviour regularly, however, for fast changing behavioural decisions not so much. Paper: Coupling of activity, metabolism and behaviour across the Drosophila brain
